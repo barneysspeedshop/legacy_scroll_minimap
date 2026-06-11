@@ -2,6 +2,12 @@
 
 A Flutter widget that provides a scroll minimap for navigating long content such as code editors, logs, and documents.
 
+## Installation
+
+```bash
+flutter pub add legacy_scroll_minimap
+```
+
 ## Features
 
 - Vertical or horizontal orientation
