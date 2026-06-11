@@ -1,0 +1,24 @@
+active_tab = 2
+open_files = ["/home/patrick/IdeaProjects/legacy_scroll_minimap/lib/legacy_scroll_minimap.dart", "/home/patrick/IdeaProjects/legacy_scroll_minimap/lib/src/scroll_minimap.dart", "/home/patrick/IdeaProjects/legacy_scroll_minimap/lib/src/models/minimap_marker.dart", "/home/patrick/IdeaProjects/legacy_scroll_minimap/lib/src/models/minimap_theme.dart"]
+open_file_viewports = '{"/home/patrick/IdeaProjects/legacy_scroll_minimap/lib/legacy_scroll_minimap.dart":{"v":0.0,"h":0.0},"/home/patrick/IdeaProjects/legacy_scroll_minimap/lib/src/scroll_minimap.dart":{"v":5788.994635721647,"h":0.0},"/home/patrick/IdeaProjects/legacy_scroll_minimap/lib/src/models/minimap_marker.dart":{"v":228.60000000000002,"h":0.0},"/home/patrick/IdeaProjects/legacy_scroll_minimap/lib/src/models/minimap_theme.dart":{"v":161.4000000000001,"h":0.0}}'
+browser_v_scroll = 0.0
+browser_h_scroll = 6.4130859375
+
+[view_options_regular]
+line_wrap = false
+footer_stats_enabled = false
+gutter_enabled = true
+minimap_enabled = true
+minimap_width = 80.0
+resizable_dialogs = true
+is_browser_open = true
+auto_close_browser_on_keyboard_input = false
+browser_position_portrait = "bottom"
+browser_position_landscape = "left"
+last_active_browser_position_portrait = "bottom"
+last_active_browser_position_landscape = "left"
+tab_bar_position_portrait = "top"
+tab_bar_position_landscape = "top"
+font_size = 14.0
+ui_scale = 1.0
+theme_seed_color = "#2196F3"

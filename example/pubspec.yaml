@@ -1,0 +1,19 @@
+name: legacy_scroll_minimap_example
+description: "An example project for legacy_scroll_minimap."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  legacy_scroll_minimap:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

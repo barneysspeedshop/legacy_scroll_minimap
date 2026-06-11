@@ -1,0 +1,11 @@
+.dart_tool/
+build/
+pubspec.lock
+example/windows/
+example/macos/
+example/linux/
+example/android/
+example/ios/
+example/web/
+example/build/
+example/.dart_tool/
