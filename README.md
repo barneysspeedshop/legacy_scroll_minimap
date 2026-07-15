@@ -2,6 +2,12 @@
 
 A Flutter widget that provides a scroll minimap for navigating long content such as code editors, logs, and documents.
 
+## About
+
+`legacy_scroll_minimap` is a high-performance visual navigation widget built for intensive text workspaces. 
+
+Designed for and used natively inside **[Rope Notes](https://ropenotes.dev)**—the private, local-first agentic workspace.
+
 ## Installation
 
 ```bash

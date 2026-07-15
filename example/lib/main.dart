@@ -1,5 +1,13 @@
+import 'package:flutter/foundation.dart' show debugPrint, kDebugMode;
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:legacy_scroll_minimap/legacy_scroll_minimap.dart';
+
+void _demoLog(String message) {
+  if (kDebugMode) {
+    debugPrint('[EditorDemo] $message');
+  }
+}
 
 void main() {
   runApp(const MinimapExampleApp());
@@ -55,7 +63,14 @@ class _EditorDemoPageState extends State<EditorDemoPage> {
     super.dispose();
   }
 
-  void _onScroll() => setState(() {});
+  void _onScroll() {
+    if (!_scrollController.hasClients) return;
+    _demoLog(
+      'scrollController offset=${_scrollController.offset.toStringAsFixed(1)} '
+      'line≈${(_scrollController.offset / _lineHeight).floor()}',
+    );
+    setState(() {});
+  }
 
   List<String> _generateSampleDocument() {
     final buffer = StringBuffer();
@@ -135,8 +150,9 @@ class _EditorDemoPageState extends State<EditorDemoPage> {
     final viewportLines =
         _scrollController.position.viewportDimension / _lineHeight;
     final target = (line - viewportLines / 2) * _lineHeight;
-    _scrollController
-        .jumpTo(target.clamp(0.0, _scrollController.position.maxScrollExtent));
+    final clamped = target.clamp(0.0, _scrollController.position.maxScrollExtent);
+    _demoLog('onSeek line=$line jumpTo=${clamped.toStringAsFixed(1)}');
+    _scrollController.jumpTo(clamped);
   }
 
   @override
@@ -172,10 +188,22 @@ class _EditorDemoPageState extends State<EditorDemoPage> {
       body: Row(
         children: [
           Expanded(
-            child: Scrollbar(
-              controller: _scrollController,
-              thumbVisibility: true,
-              child: ListView.builder(
+            child: Listener(
+              behavior: HitTestBehavior.translucent,
+              onPointerSignal: (event) {
+                if (event is PointerScrollEvent && _scrollController.hasClients) {
+                  final position = _scrollController.position;
+                  _demoLog(
+                    'textArea pointerScroll kind=${event.kind} '
+                    'scrollDelta=${event.scrollDelta} '
+                    'offsetBefore=${position.pixels.toStringAsFixed(1)}',
+                  );
+                }
+              },
+              child: Scrollbar(
+                controller: _scrollController,
+                thumbVisibility: true,
+                child: ListView.builder(
                 controller: _scrollController,
                 itemExtent: _lineHeight,
                 itemCount: totalLines,
@@ -213,6 +241,7 @@ class _EditorDemoPageState extends State<EditorDemoPage> {
                 },
               ),
             ),
+            ),
           ),
           Container(
             width: _minimapWidth,
@@ -231,11 +260,17 @@ class _EditorDemoPageState extends State<EditorDemoPage> {
               totalLineCount: totalLines,
               visibleStartLine: visibleStartLine,
               visibleEndLine: visibleEndLine,
+              scrollController: _scrollController,
               markers: _buildMarkers(),
               onSeek: _seekToLine,
               onWindowChanged: (startLine, endLine, handle) {
                 if (handle == MinimapHandle.programmatic) return;
-                _scrollController.jumpTo(startLine * _lineHeight);
+                final target = startLine * _lineHeight;
+                _demoLog(
+                  'onWindowChanged handle=$handle startLine=$startLine '
+                  'jumpTo=${target.toStringAsFixed(1)}',
+                );
+                _scrollController.jumpTo(target);
               },
             ),
           ),

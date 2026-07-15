@@ -1,9 +1,15 @@
-import 'package:flutter/foundation.dart' show listEquals;
+import 'package:flutter/foundation.dart' show debugPrint, kDebugMode, listEquals;
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import 'models/minimap_marker.dart';
 import 'models/minimap_theme.dart';
+
+void _minimapLog(String message) {
+  if (kDebugMode) {
+    debugPrint('[ScrollMinimap] $message');
+  }
+}
 
 /// Indicates which part of the minimap caused a viewport change.
 enum MinimapHandle {
@@ -14,7 +20,7 @@ enum MinimapHandle {
   programmatic,
 }
 
-enum _DragType { none, scrub, seek }
+enum _DragType { none, scrub, seek, trackpadScroll }
 
 /// A scroll minimap that shows document markers and the current viewport.
 class ScrollMinimap extends StatefulWidget {
@@ -32,6 +38,14 @@ class ScrollMinimap extends StatefulWidget {
 
   /// Called when the user clicks or drags outside the viewport to seek.
   final void Function(int line)? onSeek;
+
+  /// The scroll controller for the main scrollable content.
+  ///
+  /// When provided, wheel and trackpad gestures over the minimap call
+  /// [ScrollPosition.pointerScroll] with the same delta semantics as
+  /// [Scrollable], keeping scroll direction consistent with the text area.
+  /// Tap and drag continue to use [onWindowChanged] and [onSeek].
+  final ScrollController? scrollController;
 
   /// Markers drawn on the minimap track.
   final List<MinimapMarker> markers;
@@ -56,6 +70,7 @@ class ScrollMinimap extends StatefulWidget {
     required this.visibleEndLine,
     required this.onWindowChanged,
     this.onSeek,
+    this.scrollController,
     this.markers = const [],
     this.theme,
     this.orientation = Axis.vertical,
@@ -165,10 +180,24 @@ class _ScrollMinimapState extends State<ScrollMinimap> {
     final displayRange = displayEnd - displayStart;
 
     final seekValue = displayStart + (pos / dimension) * displayRange;
+    _minimapLog(
+      'seek tap pos=$pos dimension=$dimension seekLine=${seekValue.toInt()} '
+      'visible=${widget.visibleStartLine}..${widget.visibleEndLine}',
+    );
     widget.onSeek?.call(seekValue.toInt());
   }
 
   void _onPanStart(DragStartDetails details, Size size) {
+    _minimapLog('panStart kind=${details.kind} local=${details.localPosition}');
+
+    // Linux/desktop trackpad two-finger scroll is delivered as pan gestures, not
+    // PointerScrollEvent. Route it to scroll handling instead of seek/scrub.
+    if (details.kind == PointerDeviceKind.trackpad) {
+      _dragType = _DragType.trackpadScroll;
+      _minimapLog('panStart -> trackpadScroll');
+      return;
+    }
+
     _dragType = _getDragTypeAtPosition(details.localPosition, size);
 
     if (_dragType != _DragType.none) {
@@ -180,14 +209,24 @@ class _ScrollMinimapState extends State<ScrollMinimap> {
       final (displayStart, displayEnd) = _calculateDisplayRange(_visibleStartValue, _visibleEndValue, dimension);
       _dragStartDisplayStartValue = displayStart;
       _dragStartDisplayEndValue = displayEnd;
+      _minimapLog(
+        'panStart type=$_dragType local=${details.localPosition} dragStartPos=$_dragStartPos '
+        'visible=${widget.visibleStartLine}..${widget.visibleEndLine}',
+      );
     } else {
       _dragType = _DragType.seek;
+      _minimapLog('panStart type=seek (outside viewport) local=${details.localPosition}');
       _performSeek(details.localPosition, size);
     }
   }
 
   void _onPanUpdate(DragUpdateDetails details, Size size) {
     if (_dragType == _DragType.none) return;
+
+    if (_dragType == _DragType.trackpadScroll) {
+      _applyTrackpadScrollDelta(details.delta, size);
+      return;
+    }
 
     if (_dragType == _DragType.seek) {
       _performSeek(details.localPosition, size);
@@ -203,6 +242,11 @@ class _ScrollMinimapState extends State<ScrollMinimap> {
     final delta = pos - _dragStartPos;
     final dValue = delta / dimension * dragDisplayRange;
 
+    _minimapLog(
+      'panUpdate type=$_dragType pos=$pos dragStartPos=$_dragStartPos delta=$delta '
+      'dValue=$dValue targetStart=${_dragStartVisibleStartValue + dValue}',
+    );
+
     _updateVisibleWindow(
       _dragStartVisibleStartValue + dValue,
       _dragStartVisibleEndValue + dValue,
@@ -211,19 +255,126 @@ class _ScrollMinimapState extends State<ScrollMinimap> {
   }
 
   void _onPointerSignal(PointerSignalEvent event, Size size) {
-    if (event is PointerScrollEvent) {
-      final dimension = widget.orientation == Axis.horizontal ? size.width : size.height;
-      if (dimension == 0) return;
+    if (event is! PointerScrollEvent) return;
 
-      final (displayStart, displayEnd) = _calculateDisplayRange(_visibleStartValue, _visibleEndValue, dimension);
-      final displayRange = displayEnd - displayStart;
-      if (displayRange <= 0) return;
+    _minimapLog(
+      'pointerScroll kind=${event.kind} device=${event.device} '
+      'scrollDelta=${event.scrollDelta} local=${event.localPosition} '
+      'visible=${widget.visibleStartLine}..${widget.visibleEndLine}',
+    );
 
-      final delta = widget.orientation == Axis.horizontal ? event.scrollDelta.dx : event.scrollDelta.dy;
-      final double dValue = (delta / dimension) * displayRange;
+    final controller = widget.scrollController;
+    if (controller != null && controller.hasClients) {
+      final position = controller.position;
+      if (!position.physics.shouldAcceptUserOffset(position)) {
+        _minimapLog('pointerScroll skipped: physics rejected user offset');
+        return;
+      }
 
-      _updateVisibleWindow(_visibleStartValue + dValue, _visibleEndValue + dValue, _DragType.scrub);
+      final raw = switch (position.axis) {
+        Axis.horizontal => event.scrollDelta.dx,
+        Axis.vertical => event.scrollDelta.dy,
+      };
+      final delta = _pointerScrollDelta(event, position);
+      if (delta == 0.0) {
+        _minimapLog('pointerScroll skipped: computed delta is 0 (raw=$raw)');
+        return;
+      }
+
+      final pixelsBefore = position.pixels;
+      final targetOffset = (pixelsBefore + delta).clamp(
+        position.minScrollExtent,
+        position.maxScrollExtent,
+      );
+      if (targetOffset == pixelsBefore) {
+        _minimapLog(
+          'pointerScroll skipped: clamped no-op pixelsBefore=$pixelsBefore '
+          'target=$targetOffset delta=$delta axis=${position.axis} '
+          'axisDirection=${position.axisDirection}',
+        );
+        return;
+      }
+
+      _minimapLog(
+        'pointerScroll via scrollController raw=$raw computedDelta=$delta '
+        'pixelsBefore=$pixelsBefore pixelsAfter=$targetOffset '
+        'axis=${position.axis} axisDirection=${position.axisDirection}',
+      );
+      position.pointerScroll(delta);
+      event.respond(allowPlatformDefault: false);
+      _minimapLog('pointerScroll done pixelsNow=${position.pixels}');
+      return;
     }
+
+    _minimapLog(
+      'pointerScroll fallback (no scrollController clients) '
+      'hasController=${controller != null} hasClients=${controller?.hasClients ?? false}',
+    );
+
+    final dimension = widget.orientation == Axis.horizontal ? size.width : size.height;
+    if (dimension == 0) return;
+
+    final (displayStart, displayEnd) = _calculateDisplayRange(_visibleStartValue, _visibleEndValue, dimension);
+    final displayRange = displayEnd - displayStart;
+    if (displayRange <= 0) return;
+
+    final scrollDelta = widget.orientation == Axis.horizontal ? event.scrollDelta.dx : event.scrollDelta.dy;
+    final double dValue = (scrollDelta / dimension) * displayRange;
+
+    _minimapLog(
+      'pointerScroll fallback scrollDelta=$scrollDelta dimension=$dimension '
+      'displayRange=$displayRange dValue=$dValue targetStart=${_visibleStartValue + dValue}',
+    );
+
+    _updateVisibleWindow(_visibleStartValue + dValue, _visibleEndValue + dValue, _DragType.scrub);
+  }
+
+  void _applyTrackpadScrollDelta(Offset delta, Size size) {
+    final controller = widget.scrollController;
+    if (controller != null && controller.hasClients) {
+      final position = controller.position;
+      if (!position.physics.shouldAcceptUserOffset(position)) {
+        _minimapLog('trackpadScroll skipped: physics rejected user offset');
+        return;
+      }
+
+      final scrollDelta = -(switch (position.axis) {
+        Axis.horizontal => delta.dx,
+        Axis.vertical => delta.dy,
+      });
+      if (scrollDelta == 0.0) return;
+
+      final pixelsBefore = position.pixels;
+      _minimapLog(
+        'trackpadScroll via scrollController delta=$scrollDelta '
+        'pixelsBefore=$pixelsBefore',
+      );
+      position.pointerScroll(scrollDelta);
+      _minimapLog('trackpadScroll offsetAfter=${position.pixels}');
+      return;
+    }
+
+    final dimension = widget.orientation == Axis.horizontal ? size.width : size.height;
+    if (dimension == 0) return;
+
+    final (displayStart, displayEnd) = _calculateDisplayRange(_visibleStartValue, _visibleEndValue, dimension);
+    final displayRange = displayEnd - displayStart;
+    if (displayRange <= 0) return;
+
+    final scrollDelta = -(widget.orientation == Axis.horizontal ? delta.dx : delta.dy);
+    final double dValue = (scrollDelta / dimension) * displayRange;
+
+    _minimapLog('trackpadScroll fallback delta=$scrollDelta dValue=$dValue');
+    _updateVisibleWindow(_visibleStartValue + dValue, _visibleEndValue + dValue, _DragType.scrub);
+  }
+
+  /// Matches [Scrollable]'s pointer-scroll delta for a linked [ScrollPosition].
+  double _pointerScrollDelta(PointerScrollEvent event, ScrollPosition position) {
+    final double raw = switch (position.axis) {
+      Axis.horizontal => event.scrollDelta.dx,
+      Axis.vertical => event.scrollDelta.dy,
+    };
+    return axisDirectionIsReversed(position.axisDirection) ? -raw : raw;
   }
 
   void _updateVisibleWindow(double newVisibleStartValue, double newVisibleEndValue, _DragType currentDragType) {
@@ -257,10 +408,17 @@ class _ScrollMinimapState extends State<ScrollMinimap> {
     startValue = startValue.clamp(totalStart, totalEnd);
     endValue = endValue.clamp(totalStart, totalEnd);
 
+    final handle = _mapDragTypeToMinimapHandle(currentDragType);
+    _minimapLog(
+      'onWindowChanged handle=$handle requested=$newVisibleStartValue..$newVisibleEndValue '
+      'clamped=${startValue.toInt()}..${endValue.toInt()} '
+      'previous=${widget.visibleStartLine}..${widget.visibleEndLine}',
+    );
+
     widget.onWindowChanged(
       startValue.toInt(),
       endValue.toInt(),
-      _mapDragTypeToMinimapHandle(currentDragType),
+      handle,
     );
   }
 
@@ -268,13 +426,19 @@ class _ScrollMinimapState extends State<ScrollMinimap> {
     switch (type) {
       case _DragType.scrub:
       case _DragType.seek:
+      case _DragType.trackpadScroll:
         return MinimapHandle.scrub;
       case _DragType.none:
         return MinimapHandle.programmatic;
     }
   }
 
-  void _onPanEnd(DragEndDetails details) => _dragType = _DragType.none;
+  void _onPanEnd(DragEndDetails details) {
+    if (_dragType != _DragType.none) {
+      _minimapLog('panEnd type=$_dragType velocity=${details.velocity}');
+    }
+    _dragType = _DragType.none;
+  }
 
   @override
   Widget build(BuildContext context) {

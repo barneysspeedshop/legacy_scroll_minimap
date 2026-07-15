@@ -1,0 +1,1247 @@
+Restarted application in 284ms.
+Two finger scroll over minimap below here --------
+=======================================
+[ScrollMinimap] panStart type=seek (outside viewport) local=Offset(53.4, 102.1)
+[ScrollMinimap] seek tap pos=102.12628173828125 dimension=664.0 seekLine=42 visible=0..36
+[EditorDemo] onSeek line=42 jumpTo=508.0
+[EditorDemo] scrollController offset=508.0 line≈25
+[ScrollMinimap] seek tap pos=51.356833462389964 dimension=664.0 seekLine=21 visible=0..36
+[EditorDemo] onSeek line=21 jumpTo=88.0
+[EditorDemo] scrollController offset=88.0 line≈4
+[ScrollMinimap] seek tap pos=56.00621277273167 dimension=664.0 seekLine=23 visible=0..36
+[EditorDemo] onSeek line=23 jumpTo=128.0
+[EditorDemo] scrollController offset=128.0 line≈6
+[ScrollMinimap] seek tap pos=62.39910932447722 dimension=664.0 seekLine=25 visible=0..36
+[EditorDemo] onSeek line=25 jumpTo=168.0
+[EditorDemo] scrollController offset=168.0 line≈8
+[ScrollMinimap] seek tap pos=67.62966104868877 dimension=664.0 seekLine=28 visible=0..36
+[EditorDemo] onSeek line=28 jumpTo=228.0
+[EditorDemo] scrollController offset=228.0 line≈11
+[ScrollMinimap] seek tap pos=72.27904035903049 dimension=664.0 seekLine=29 visible=0..36
+[EditorDemo] onSeek line=29 jumpTo=248.0
+[EditorDemo] scrollController offset=248.0 line≈12
+[ScrollMinimap] seek tap pos=77.5095920831392 dimension=664.0 seekLine=32 visible=0..36
+[EditorDemo] onSeek line=32 jumpTo=308.0
+[EditorDemo] scrollController offset=308.0 line≈15
+[ScrollMinimap] seek tap pos=81.57779897971389 dimension=664.0 seekLine=33 visible=15..49
+[EditorDemo] onSeek line=33 jumpTo=328.0
+[EditorDemo] scrollController offset=328.0 line≈16
+[ScrollMinimap] seek tap pos=85.6460058762886 dimension=664.0 seekLine=35 visible=15..49
+[EditorDemo] onSeek line=35 jumpTo=368.0
+[EditorDemo] scrollController offset=368.0 line≈18
+[ScrollMinimap] seek tap pos=89.7142127728633 dimension=664.0 seekLine=37 visible=15..49
+[EditorDemo] onSeek line=37 jumpTo=408.0
+[EditorDemo] scrollController offset=408.0 line≈20
+[ScrollMinimap] seek tap pos=92.620074841904 dimension=664.0 seekLine=38 visible=15..49
+[EditorDemo] onSeek line=38 jumpTo=428.0
+[EditorDemo] scrollController offset=428.0 line≈21
+[ScrollMinimap] seek tap pos=96.6882817384787 dimension=664.0 seekLine=40 visible=15..49
+[EditorDemo] onSeek line=40 jumpTo=468.0
+[EditorDemo] scrollController offset=468.0 line≈23
+[ScrollMinimap] seek tap pos=101.3376610488204 dimension=664.0 seekLine=41 visible=15..49
+[EditorDemo] onSeek line=41 jumpTo=488.0
+[EditorDemo] scrollController offset=488.0 line≈24
+[ScrollMinimap] seek tap pos=104.24352311775826 dimension=664.0 seekLine=43 visible=15..49
+[EditorDemo] onSeek line=43 jumpTo=528.0
+[EditorDemo] scrollController offset=528.0 line≈26
+[ScrollMinimap] seek tap pos=107.73055760056596 dimension=664.0 seekLine=44 visible=15..49
+[EditorDemo] onSeek line=44 jumpTo=548.0
+[EditorDemo] scrollController offset=548.0 line≈27
+[ScrollMinimap] seek tap pos=112.37993691090767 dimension=664.0 seekLine=46 visible=15..49
+[EditorDemo] onSeek line=46 jumpTo=588.0
+[EditorDemo] scrollController offset=588.0 line≈29
+[ScrollMinimap] seek tap pos=116.44814380748238 dimension=664.0 seekLine=48 visible=15..49
+[EditorDemo] onSeek line=48 jumpTo=628.0
+[EditorDemo] scrollController offset=628.0 line≈31
+[ScrollMinimap] seek tap pos=119.35400587642025 dimension=664.0 seekLine=49 visible=15..49
+[EditorDemo] onSeek line=49 jumpTo=648.0
+[EditorDemo] scrollController offset=648.0 line≈32
+[ScrollMinimap] seek tap pos=122.84104035922795 dimension=664.0 seekLine=50 visible=15..49
+[EditorDemo] onSeek line=50 jumpTo=668.0
+[EditorDemo] scrollController offset=668.0 line≈33
+[ScrollMinimap] seek tap pos=127.49041966956966 dimension=664.0 seekLine=52 visible=15..49
+[EditorDemo] onSeek line=52 jumpTo=708.0
+[EditorDemo] scrollController offset=708.0 line≈35
+[ScrollMinimap] seek tap pos=130.39628173850753 dimension=664.0 seekLine=54 visible=15..49
+[EditorDemo] onSeek line=54 jumpTo=748.0
+[EditorDemo] scrollController offset=748.0 line≈37
+[ScrollMinimap] seek tap pos=133.88331622131523 dimension=664.0 seekLine=55 visible=15..49
+[EditorDemo] onSeek line=55 jumpTo=768.0
+[EditorDemo] scrollController offset=768.0 line≈38
+[ScrollMinimap] seek tap pos=138.53269553165694 dimension=664.0 seekLine=57 visible=15..49
+[EditorDemo] onSeek line=57 jumpTo=808.0
+[EditorDemo] scrollController offset=808.0 line≈40
+[ScrollMinimap] seek tap pos=142.0197300143618 dimension=664.0 seekLine=58 visible=15..49
+[EditorDemo] onSeek line=58 jumpTo=828.0
+[EditorDemo] scrollController offset=828.0 line≈41
+[ScrollMinimap] seek tap pos=145.5067644971695 dimension=664.0 seekLine=60 visible=15..49
+[EditorDemo] onSeek line=60 jumpTo=868.0
+[EditorDemo] scrollController offset=868.0 line≈43
+[ScrollMinimap] seek tap pos=149.5749713937442 dimension=664.0 seekLine=61 visible=15..49
+[EditorDemo] onSeek line=61 jumpTo=888.0
+[EditorDemo] scrollController offset=888.0 line≈44
+[ScrollMinimap] seek tap pos=152.48083346268209 dimension=664.0 seekLine=63 visible=15..49
+[EditorDemo] onSeek line=63 jumpTo=928.0
+[EditorDemo] scrollController offset=928.0 line≈46
+[ScrollMinimap] seek tap pos=157.13021277302377 dimension=664.0 seekLine=65 visible=46..80
+[EditorDemo] onSeek line=65 jumpTo=968.0
+[EditorDemo] scrollController offset=968.0 line≈48
+[ScrollMinimap] seek tap pos=161.19841966959848 dimension=664.0 seekLine=66 visible=46..80
+[EditorDemo] onSeek line=66 jumpTo=988.0
+[EditorDemo] scrollController offset=988.0 line≈49
+[ScrollMinimap] seek tap pos=164.10428173863917 dimension=664.0 seekLine=67 visible=46..80
+[EditorDemo] onSeek line=67 jumpTo=1008.0
+[EditorDemo] scrollController offset=1008.0 line≈50
+[ScrollMinimap] seek tap pos=168.7536610489809 dimension=664.0 seekLine=69 visible=46..80
+[EditorDemo] onSeek line=69 jumpTo=1048.0
+[EditorDemo] scrollController offset=1048.0 line≈52
+[ScrollMinimap] seek tap pos=173.4030403593226 dimension=664.0 seekLine=71 visible=46..80
+[EditorDemo] onSeek line=71 jumpTo=1088.0
+[EditorDemo] scrollController offset=1088.0 line≈54
+[ScrollMinimap] seek tap pos=178.05241966966432 dimension=664.0 seekLine=73 visible=46..80
+[EditorDemo] onSeek line=73 jumpTo=1128.0
+[EditorDemo] scrollController offset=1128.0 line≈56
+[ScrollMinimap] seek tap pos=181.5394541523692 dimension=664.0 seekLine=75 visible=46..80
+[EditorDemo] onSeek line=75 jumpTo=1168.0
+[EditorDemo] scrollController offset=1168.0 line≈58
+[ScrollMinimap] seek tap pos=186.1888334627109 dimension=664.0 seekLine=77 visible=46..80
+[EditorDemo] onSeek line=77 jumpTo=1208.0
+[EditorDemo] scrollController offset=1208.0 line≈60
+[ScrollMinimap] seek tap pos=190.83821277305262 dimension=664.0 seekLine=79 visible=46..80
+[EditorDemo] onSeek line=79 jumpTo=1248.0
+[EditorDemo] scrollController offset=1248.0 line≈62
+[ScrollMinimap] seek tap pos=193.7440748420933 dimension=664.0 seekLine=80 visible=46..80
+[EditorDemo] onSeek line=80 jumpTo=1268.0
+[EditorDemo] scrollController offset=1268.0 line≈63
+[ScrollMinimap] seek tap pos=197.81228173866802 dimension=664.0 seekLine=81 visible=46..80
+[EditorDemo] onSeek line=81 jumpTo=1288.0
+[EditorDemo] scrollController offset=1288.0 line≈64
+[ScrollMinimap] seek tap pos=201.88048863524273 dimension=664.0 seekLine=83 visible=46..80
+[EditorDemo] onSeek line=83 jumpTo=1328.0
+[EditorDemo] scrollController offset=1328.0 line≈66
+[ScrollMinimap] seek tap pos=204.20517829041358 dimension=664.0 seekLine=84 visible=46..80
+[EditorDemo] onSeek line=84 jumpTo=1348.0
+[EditorDemo] scrollController offset=1348.0 line≈67
+[ScrollMinimap] seek tap pos=207.11104035935145 dimension=664.0 seekLine=85 visible=46..80
+[EditorDemo] onSeek line=85 jumpTo=1368.0
+[EditorDemo] scrollController offset=1368.0 line≈68
+[ScrollMinimap] seek tap pos=211.17924725592616 dimension=664.0 seekLine=87 visible=46..80
+[EditorDemo] onSeek line=87 jumpTo=1408.0
+[EditorDemo] scrollController offset=1408.0 line≈70
+[ScrollMinimap] seek tap pos=212.92276449733 dimension=664.0 seekLine=88 visible=46..80
+[EditorDemo] onSeek line=88 jumpTo=1428.0
+[EditorDemo] scrollController offset=1428.0 line≈71
+[ScrollMinimap] seek tap pos=216.99097139390472 dimension=664.0 seekLine=89 visible=46..80
+[EditorDemo] onSeek line=89 jumpTo=1448.0
+[EditorDemo] scrollController offset=1448.0 line≈72
+[ScrollMinimap] seek tap pos=218.73448863530857 dimension=664.0 seekLine=90 visible=46..80
+[EditorDemo] onSeek line=90 jumpTo=1468.0
+[EditorDemo] scrollController offset=1468.0 line≈73
+[ScrollMinimap] seek tap pos=220.47800587671242 dimension=664.0 seekLine=91 visible=46..80
+[EditorDemo] onSeek line=91 jumpTo=1488.0
+[EditorDemo] scrollController offset=1488.0 line≈74
+[ScrollMinimap] seek tap pos=223.3838679457531 dimension=664.0 seekLine=92 visible=46..80
+[EditorDemo] onSeek line=92 jumpTo=1508.0
+[EditorDemo] scrollController offset=1508.0 line≈75
+[ScrollMinimap] seek tap pos=225.70855760092397 dimension=664.0 seekLine=93 visible=46..80
+[EditorDemo] onSeek line=93 jumpTo=1528.0
+[EditorDemo] scrollController offset=1528.0 line≈76
+[ScrollMinimap] seek tap pos=227.45207484232782 dimension=664.0 seekLine=94 visible=76..110
+[EditorDemo] onSeek line=94 jumpTo=1548.0
+[EditorDemo] scrollController offset=1548.0 line≈77
+[ScrollMinimap] seek tap pos=229.77676449749868 dimension=664.0 seekLine=95 visible=76..110
+[EditorDemo] onSeek line=95 jumpTo=1568.0
+[EditorDemo] scrollController offset=1568.0 line≈78
+[ScrollMinimap] seek tap pos=232.10145415266953 dimension=664.0 seekLine=96 visible=76..110
+[EditorDemo] onSeek line=96 jumpTo=1588.0
+[EditorDemo] scrollController offset=1588.0 line≈79
+[ScrollMinimap] seek tap pos=235.0073162216074 dimension=664.0 seekLine=97 visible=76..110
+[EditorDemo] onSeek line=97 jumpTo=1608.0
+[EditorDemo] scrollController offset=1608.0 line≈80
+[ScrollMinimap] seek tap pos=236.16966104924424 dimension=664.0 seekLine=97 visible=76..110
+[EditorDemo] onSeek line=97 jumpTo=1608.0
+[ScrollMinimap] seek tap pos=239.6566955319491 dimension=664.0 seekLine=99 visible=76..110
+[EditorDemo] onSeek line=99 jumpTo=1648.0
+[EditorDemo] scrollController offset=1648.0 line≈82
+[ScrollMinimap] seek tap pos=243.1437300147568 dimension=664.0 seekLine=100 visible=76..110
+[EditorDemo] onSeek line=100 jumpTo=1668.0
+[EditorDemo] scrollController offset=1668.0 line≈83
+[ScrollMinimap] seek tap pos=244.88724725616066 dimension=664.0 seekLine=101 visible=76..110
+[EditorDemo] onSeek line=101 jumpTo=1688.0
+[EditorDemo] scrollController offset=1688.0 line≈84
+[ScrollMinimap] seek tap pos=250.6989713940364 dimension=664.0 seekLine=103 visible=76..110
+[EditorDemo] onSeek line=103 jumpTo=1728.0
+[EditorDemo] scrollController offset=1728.0 line≈86
+[ScrollMinimap] seek tap pos=255.3483507043781 dimension=664.0 seekLine=105 visible=76..110
+[EditorDemo] onSeek line=105 jumpTo=1768.0
+[EditorDemo] scrollController offset=1768.0 line≈88
+[ScrollMinimap] seek tap pos=258.8353851871858 dimension=664.0 seekLine=107 visible=76..110
+[EditorDemo] onSeek line=107 jumpTo=1808.0
+[EditorDemo] scrollController offset=1808.0 line≈90
+[ScrollMinimap] seek tap pos=262.3224196698907 dimension=664.0 seekLine=108 visible=76..110
+[EditorDemo] onSeek line=108 jumpTo=1828.0
+[EditorDemo] scrollController offset=1828.0 line≈91
+[ScrollMinimap] seek tap pos=266.39062656646536 dimension=664.0 seekLine=110 visible=76..110
+[EditorDemo] onSeek line=110 jumpTo=1868.0
+[EditorDemo] scrollController offset=1868.0 line≈93
+[ScrollMinimap] seek tap pos=271.0400058768071 dimension=664.0 seekLine=112 visible=76..110
+[EditorDemo] onSeek line=112 jumpTo=1908.0
+[EditorDemo] scrollController offset=1908.0 line≈95
+[ScrollMinimap] seek tap pos=274.52704035961483 dimension=664.0 seekLine=113 visible=76..110
+[EditorDemo] onSeek line=113 jumpTo=1928.0
+[EditorDemo] scrollController offset=1928.0 line≈96
+[ScrollMinimap] seek tap pos=278.0140748423197 dimension=664.0 seekLine=115 visible=96..130
+[EditorDemo] onSeek line=115 jumpTo=1968.0
+[EditorDemo] scrollController offset=1968.0 line≈98
+[ScrollMinimap] seek tap pos=281.50110932512735 dimension=664.0 seekLine=116 visible=96..130
+[EditorDemo] onSeek line=116 jumpTo=1988.0
+[EditorDemo] scrollController offset=1988.0 line≈99
+[ScrollMinimap] seek tap pos=284.40697139406524 dimension=664.0 seekLine=117 visible=96..130
+[EditorDemo] onSeek line=117 jumpTo=2008.0
+[EditorDemo] scrollController offset=2008.0 line≈100
+[ScrollMinimap] seek tap pos=287.3128334631059 dimension=664.0 seekLine=118 visible=96..130
+[EditorDemo] onSeek line=118 jumpTo=2028.0
+[EditorDemo] scrollController offset=2028.0 line≈101
+[ScrollMinimap] seek tap pos=289.6375231182768 dimension=664.0 seekLine=119 visible=96..130
+[EditorDemo] onSeek line=119 jumpTo=2048.0
+[EditorDemo] scrollController offset=2048.0 line≈102
+[ScrollMinimap] seek tap pos=290.7998679458108 dimension=664.0 seekLine=120 visible=96..130
+[EditorDemo] onSeek line=120 jumpTo=2068.0
+[EditorDemo] scrollController offset=2068.0 line≈103
+[ScrollMinimap] seek tap pos=293.1245576009817 dimension=664.0 seekLine=121 visible=96..130
+[EditorDemo] onSeek line=121 jumpTo=2088.0
+[EditorDemo] scrollController offset=2088.0 line≈104
+[ScrollMinimap] seek tap pos=293.7057300148515 dimension=664.0 seekLine=121 visible=96..130
+[EditorDemo] onSeek line=121 jumpTo=2088.0
+[ScrollMinimap] seek tap pos=294.8680748423855 dimension=664.0 seekLine=122 visible=96..130
+[EditorDemo] onSeek line=122 jumpTo=2108.0
+[EditorDemo] scrollController offset=2108.0 line≈105
+[ScrollMinimap] seek tap pos=297.19276449755637 dimension=664.0 seekLine=123 visible=96..130
+[EditorDemo] onSeek line=123 jumpTo=2128.0
+[EditorDemo] scrollController offset=2128.0 line≈106
+[ScrollMinimap] seek tap pos=297.7739369114262 dimension=664.0 seekLine=123 visible=96..130
+[EditorDemo] onSeek line=123 jumpTo=2128.0
+[ScrollMinimap] seek tap pos=299.51745415283006 dimension=664.0 seekLine=124 visible=96..130
+[EditorDemo] onSeek line=124 jumpTo=2148.0
+[EditorDemo] scrollController offset=2148.0 line≈107
+[ScrollMinimap] seek tap pos=300.67979898036407 dimension=664.0 seekLine=124 visible=107..141
+[EditorDemo] onSeek line=124 jumpTo=2148.0
+[ScrollMinimap] seek tap pos=301.8421438080009 dimension=664.0 seekLine=125 visible=107..141
+[EditorDemo] onSeek line=125 jumpTo=2168.0
+[EditorDemo] scrollController offset=2168.0 line≈108
+[ScrollMinimap] seek tap pos=303.0044886355349 dimension=664.0 seekLine=125 visible=107..141
+[EditorDemo] onSeek line=125 jumpTo=2168.0
+[ScrollMinimap] seek tap pos=304.74800587693875 dimension=664.0 seekLine=126 visible=107..141
+[EditorDemo] onSeek line=126 jumpTo=2188.0
+[EditorDemo] scrollController offset=2188.0 line≈109
+[ScrollMinimap] seek tap pos=305.3291782908086 dimension=664.0 seekLine=126 visible=107..141
+[EditorDemo] onSeek line=126 jumpTo=2188.0
+[ScrollMinimap] seek tap pos=305.9103507045756 dimension=664.0 seekLine=126 visible=109..143
+[EditorDemo] onSeek line=126 jumpTo=2188.0
+[ScrollMinimap] seek tap pos=306.49152311844546 dimension=664.0 seekLine=126 visible=109..143
+[EditorDemo] onSeek line=126 jumpTo=2188.0
+[ScrollMinimap] seek tap pos=307.07269553221244 dimension=664.0 seekLine=127 visible=109..143
+[EditorDemo] onSeek line=127 jumpTo=2208.0
+[EditorDemo] scrollController offset=2208.0 line≈110
+[ScrollMinimap] seek tap pos=308.2350403598493 dimension=664.0 seekLine=127 visible=109..143
+[EditorDemo] onSeek line=127 jumpTo=2208.0
+[ScrollMinimap] seek tap pos=308.81621277361626 dimension=664.0 seekLine=127 visible=110..144
+[EditorDemo] onSeek line=127 jumpTo=2208.0
+[ScrollMinimap] seek tap pos=309.3973851874861 dimension=664.0 seekLine=128 visible=110..144
+[EditorDemo] onSeek line=128 jumpTo=2228.0
+[EditorDemo] scrollController offset=2228.0 line≈111
+[ScrollMinimap] seek tap pos=309.9785576012531 dimension=664.0 seekLine=128 visible=111..145
+[EditorDemo] onSeek line=128 jumpTo=2228.0
+[ScrollMinimap] seek tap pos=310.55973001512297 dimension=664.0 seekLine=128 visible=111..145
+[EditorDemo] onSeek line=128 jumpTo=2228.0
+[ScrollMinimap] seek tap pos=309.3973851874861 dimension=664.0 seekLine=128 visible=111..145
+[EditorDemo] onSeek line=128 jumpTo=2228.0
+[ScrollMinimap] seek tap pos=307.6538679460823 dimension=664.0 seekLine=127 visible=111..145
+[EditorDemo] onSeek line=127 jumpTo=2208.0
+[EditorDemo] scrollController offset=2208.0 line≈110
+[ScrollMinimap] seek tap pos=305.9103507046785 dimension=664.0 seekLine=126 visible=111..145
+[EditorDemo] onSeek line=126 jumpTo=2188.0
+[EditorDemo] scrollController offset=2188.0 line≈109
+[ScrollMinimap] seek tap pos=301.84214380810374 dimension=664.0 seekLine=125 visible=109..143
+[EditorDemo] onSeek line=125 jumpTo=2168.0
+[EditorDemo] scrollController offset=2168.0 line≈108
+[ScrollMinimap] seek tap pos=297.192764497762 dimension=664.0 seekLine=123 visible=109..143
+[EditorDemo] onSeek line=123 jumpTo=2128.0
+[EditorDemo] scrollController offset=2128.0 line≈106
+[ScrollMinimap] seek tap pos=292.5433851874203 dimension=664.0 seekLine=121 visible=109..143
+[EditorDemo] onSeek line=121 jumpTo=2088.0
+[EditorDemo] scrollController offset=2088.0 line≈104
+[ScrollMinimap] seek tap pos=289.05635070471544 dimension=664.0 seekLine=119 visible=109..143
+[EditorDemo] onSeek line=119 jumpTo=2048.0
+[EditorDemo] scrollController offset=2048.0 line≈102
+[ScrollMinimap] seek tap pos=284.4069713943737 dimension=664.0 seekLine=117 visible=109..143
+[EditorDemo] onSeek line=117 jumpTo=2008.0
+[EditorDemo] scrollController offset=2008.0 line≈100
+[ScrollMinimap] seek tap pos=279.757592084032 dimension=664.0 seekLine=115 visible=109..143
+[EditorDemo] onSeek line=115 jumpTo=1968.0
+[EditorDemo] scrollController offset=1968.0 line≈98
+[ScrollMinimap] seek tap pos=276.27055760122437 dimension=664.0 seekLine=114 visible=109..143
+[EditorDemo] onSeek line=114 jumpTo=1948.0
+[EditorDemo] scrollController offset=1948.0 line≈97
+[ScrollMinimap] seek tap pos=272.7835231185195 dimension=664.0 seekLine=112 visible=97..131
+[EditorDemo] onSeek line=112 jumpTo=1908.0
+[EditorDemo] scrollController offset=1908.0 line≈95
+[ScrollMinimap] seek tap pos=268.1341438081778 dimension=664.0 seekLine=111 visible=97..131
+[EditorDemo] onSeek line=111 jumpTo=1888.0
+[EditorDemo] scrollController offset=1888.0 line≈94
+[ScrollMinimap] seek tap pos=264.64710932537 dimension=664.0 seekLine=109 visible=97..131
+[EditorDemo] onSeek line=109 jumpTo=1848.0
+[EditorDemo] scrollController offset=1848.0 line≈92
+[ScrollMinimap] seek tap pos=261.16007484266515 dimension=664.0 seekLine=108 visible=97..131
+[EditorDemo] onSeek line=108 jumpTo=1828.0
+[EditorDemo] scrollController offset=1828.0 line≈91
+[ScrollMinimap] seek tap pos=257.0918679460905 dimension=664.0 seekLine=106 visible=97..131
+[EditorDemo] onSeek line=106 jumpTo=1788.0
+[EditorDemo] scrollController offset=1788.0 line≈89
+[ScrollMinimap] seek tap pos=253.60483346328277 dimension=664.0 seekLine=105 visible=97..131
+[EditorDemo] onSeek line=105 jumpTo=1768.0
+[EditorDemo] scrollController offset=1768.0 line≈88
+[ScrollMinimap] seek tap pos=249.53662656670807 dimension=664.0 seekLine=103 visible=97..131
+[EditorDemo] onSeek line=103 jumpTo=1728.0
+[EditorDemo] scrollController offset=1728.0 line≈86
+[ScrollMinimap] seek tap pos=245.46841967013336 dimension=664.0 seekLine=101 visible=86..120
+[EditorDemo] onSeek line=101 jumpTo=1688.0
+[EditorDemo] scrollController offset=1688.0 line≈84
+[ScrollMinimap] seek tap pos=241.40021277355865 dimension=664.0 seekLine=99 visible=86..120
+[EditorDemo] onSeek line=99 jumpTo=1648.0
+[EditorDemo] scrollController offset=1648.0 line≈82
+[ScrollMinimap] seek tap pos=237.91317829085378 dimension=664.0 seekLine=98 visible=86..120
+[EditorDemo] onSeek line=98 jumpTo=1628.0
+[EditorDemo] scrollController offset=1628.0 line≈81
+[ScrollMinimap] seek tap pos=233.84497139427907 dimension=664.0 seekLine=96 visible=86..120
+[EditorDemo] onSeek line=96 jumpTo=1588.0
+[EditorDemo] scrollController offset=1588.0 line≈79
+[ScrollMinimap] seek tap pos=229.77676449770436 dimension=664.0 seekLine=95 visible=86..120
+[EditorDemo] onSeek line=95 jumpTo=1568.0
+[EditorDemo] scrollController offset=1568.0 line≈78
+[ScrollMinimap] seek tap pos=226.28973001489666 dimension=664.0 seekLine=93 visible=86..120
+[EditorDemo] onSeek line=93 jumpTo=1528.0
+[EditorDemo] scrollController offset=1528.0 line≈76
+[ScrollMinimap] seek tap pos=222.22152311832195 dimension=664.0 seekLine=92 visible=86..120
+[EditorDemo] onSeek line=92 jumpTo=1508.0
+[EditorDemo] scrollController offset=1508.0 line≈75
+[ScrollMinimap] seek tap pos=218.15331622174725 dimension=664.0 seekLine=90 visible=86..120
+[EditorDemo] onSeek line=90 jumpTo=1468.0
+[EditorDemo] scrollController offset=1468.0 line≈73
+[ScrollMinimap] seek tap pos=214.66628173904238 dimension=664.0 seekLine=88 visible=86..120
+[EditorDemo] onSeek line=88 jumpTo=1428.0
+[EditorDemo] scrollController offset=1428.0 line≈71
+[ScrollMinimap] seek tap pos=210.59807484246767 dimension=664.0 seekLine=87 visible=86..120
+[EditorDemo] onSeek line=87 jumpTo=1408.0
+[EditorDemo] scrollController offset=1408.0 line≈70
+[ScrollMinimap] seek tap pos=205.94869553212595 dimension=664.0 seekLine=85 visible=86..120
+[EditorDemo] onSeek line=85 jumpTo=1368.0
+[EditorDemo] scrollController offset=1368.0 line≈68
+[ScrollMinimap] seek tap pos=202.46166104931825 dimension=664.0 seekLine=83 visible=86..120
+[EditorDemo] onSeek line=83 jumpTo=1328.0
+[EditorDemo] scrollController offset=1328.0 line≈66
+[ScrollMinimap] seek tap pos=198.39345415274354 dimension=664.0 seekLine=82 visible=86..120
+[EditorDemo] onSeek line=82 jumpTo=1308.0
+[EditorDemo] scrollController offset=1308.0 line≈65
+[ScrollMinimap] seek tap pos=193.74407484240183 dimension=664.0 seekLine=80 visible=65..99
+[EditorDemo] onSeek line=80 jumpTo=1268.0
+[EditorDemo] scrollController offset=1268.0 line≈63
+[ScrollMinimap] seek tap pos=190.25704035969696 dimension=664.0 seekLine=78 visible=65..99
+[EditorDemo] onSeek line=78 jumpTo=1228.0
+[EditorDemo] scrollController offset=1228.0 line≈61
+[ScrollMinimap] seek tap pos=185.60766104935524 dimension=664.0 seekLine=76 visible=65..99
+[EditorDemo] onSeek line=76 jumpTo=1188.0
+[EditorDemo] scrollController offset=1188.0 line≈59
+[ScrollMinimap] seek tap pos=180.95828173901353 dimension=664.0 seekLine=74 visible=65..99
+[EditorDemo] onSeek line=74 jumpTo=1148.0
+[EditorDemo] scrollController offset=1148.0 line≈57
+[ScrollMinimap] seek tap pos=176.30890242867181 dimension=664.0 seekLine=73 visible=65..99
+[EditorDemo] onSeek line=73 jumpTo=1128.0
+[EditorDemo] scrollController offset=1128.0 line≈56
+[ScrollMinimap] seek tap pos=172.2406955320971 dimension=664.0 seekLine=71 visible=65..99
+[EditorDemo] onSeek line=71 jumpTo=1088.0
+[EditorDemo] scrollController offset=1088.0 line≈54
+[ScrollMinimap] seek tap pos=167.5913162217554 dimension=664.0 seekLine=69 visible=65..99
+[EditorDemo] onSeek line=69 jumpTo=1048.0
+[EditorDemo] scrollController offset=1048.0 line≈52
+[ScrollMinimap] seek tap pos=162.94193691141368 dimension=664.0 seekLine=67 visible=65..99
+[EditorDemo] onSeek line=67 jumpTo=1008.0
+[EditorDemo] scrollController offset=1008.0 line≈50
+[ScrollMinimap] seek tap pos=159.45490242860598 dimension=664.0 seekLine=66 visible=65..99
+[EditorDemo] onSeek line=66 jumpTo=988.0
+[EditorDemo] scrollController offset=988.0 line≈49
+[ScrollMinimap] seek tap pos=154.80552311826426 dimension=664.0 seekLine=64 visible=65..99
+[EditorDemo] onSeek line=64 jumpTo=948.0
+[EditorDemo] scrollController offset=948.0 line≈47
+[ScrollMinimap] seek tap pos=150.15614380792255 dimension=664.0 seekLine=62 visible=65..99
+[EditorDemo] onSeek line=62 jumpTo=908.0
+[EditorDemo] scrollController offset=908.0 line≈45
+[ScrollMinimap] seek tap pos=146.66910932521768 dimension=664.0 seekLine=60 visible=65..99
+[EditorDemo] onSeek line=60 jumpTo=868.0
+[EditorDemo] scrollController offset=868.0 line≈43
+[ScrollMinimap] seek tap pos=143.763247256177 dimension=664.0 seekLine=59 visible=65..99
+[EditorDemo] onSeek line=59 jumpTo=848.0
+[EditorDemo] scrollController offset=848.0 line≈42
+[ScrollMinimap] seek tap pos=141.43855760100615 dimension=664.0 seekLine=58 visible=65..99
+[EditorDemo] onSeek line=58 jumpTo=828.0
+[EditorDemo] scrollController offset=828.0 line≈41
+[ScrollMinimap] seek tap pos=137.95152311830128 dimension=664.0 seekLine=57 visible=65..99
+[EditorDemo] onSeek line=57 jumpTo=808.0
+[EditorDemo] scrollController offset=808.0 line≈40
+[ScrollMinimap] seek tap pos=135.62683346313042 dimension=664.0 seekLine=56 visible=65..99
+[EditorDemo] onSeek line=56 jumpTo=788.0
+[EditorDemo] scrollController offset=788.0 line≈39
+[ScrollMinimap] seek tap pos=133.30214380795957 dimension=664.0 seekLine=55 visible=39..73
+[EditorDemo] onSeek line=55 jumpTo=768.0
+[EditorDemo] scrollController offset=768.0 line≈38
+[ScrollMinimap] seek tap pos=130.9774541527887 dimension=664.0 seekLine=54 visible=39..73
+[EditorDemo] onSeek line=54 jumpTo=748.0
+[EditorDemo] scrollController offset=748.0 line≈37
+[ScrollMinimap] seek tap pos=128.65276449761785 dimension=664.0 seekLine=53 visible=39..73
+[EditorDemo] onSeek line=53 jumpTo=728.0
+[EditorDemo] scrollController offset=728.0 line≈36
+[ScrollMinimap] seek tap pos=127.49041966998101 dimension=664.0 seekLine=52 visible=39..73
+[EditorDemo] onSeek line=52 jumpTo=708.0
+[EditorDemo] scrollController offset=708.0 line≈35
+[ScrollMinimap] seek tap pos=126.328074842447 dimension=664.0 seekLine=52 visible=39..73
+[EditorDemo] onSeek line=52 jumpTo=708.0
+[ScrollMinimap] seek tap pos=125.16573001481015 dimension=664.0 seekLine=51 visible=39..73
+[EditorDemo] onSeek line=51 jumpTo=688.0
+[EditorDemo] scrollController offset=688.0 line≈34
+[ScrollMinimap] seek tap pos=123.4222127734063 dimension=664.0 seekLine=51 visible=39..73
+[EditorDemo] onSeek line=51 jumpTo=688.0
+[ScrollMinimap] seek tap pos=121.67869553200245 dimension=664.0 seekLine=50 visible=39..73
+[EditorDemo] onSeek line=50 jumpTo=668.0
+[EditorDemo] scrollController offset=668.0 line≈33
+[ScrollMinimap] seek tap pos=120.51635070446844 dimension=664.0 seekLine=49 visible=39..73
+[EditorDemo] onSeek line=49 jumpTo=648.0
+[EditorDemo] scrollController offset=648.0 line≈32
+[ScrollMinimap] seek tap pos=118.19166104929758 dimension=664.0 seekLine=48 visible=39..73
+[EditorDemo] onSeek line=48 jumpTo=628.0
+[EditorDemo] scrollController offset=628.0 line≈31
+[ScrollMinimap] seek tap pos=116.44814380789373 dimension=664.0 seekLine=48 visible=39..73
+[EditorDemo] onSeek line=48 jumpTo=628.0
+[ScrollMinimap] seek tap pos=115.28579898025689 dimension=664.0 seekLine=47 visible=39..73
+[EditorDemo] onSeek line=47 jumpTo=608.0
+[EditorDemo] scrollController offset=608.0 line≈30
+[ScrollMinimap] seek tap pos=112.96110932508603 dimension=664.0 seekLine=46 visible=39..73
+[EditorDemo] onSeek line=46 jumpTo=588.0
+[EditorDemo] scrollController offset=588.0 line≈29
+[ScrollMinimap] seek tap pos=110.05524725614816 dimension=664.0 seekLine=45 visible=39..73
+[EditorDemo] onSeek line=45 jumpTo=568.0
+[EditorDemo] scrollController offset=568.0 line≈28
+[ScrollMinimap] seek tap pos=106.56821277334048 dimension=664.0 seekLine=44 visible=39..73
+[EditorDemo] onSeek line=44 jumpTo=548.0
+[EditorDemo] scrollController offset=548.0 line≈27
+[ScrollMinimap] seek tap pos=104.82469553193663 dimension=664.0 seekLine=43 visible=39..73
+[EditorDemo] onSeek line=43 jumpTo=528.0
+[EditorDemo] scrollController offset=528.0 line≈26
+[ScrollMinimap] seek tap pos=101.91883346299878 dimension=664.0 seekLine=42 visible=39..73
+[EditorDemo] onSeek line=42 jumpTo=508.0
+[EditorDemo] scrollController offset=508.0 line≈25
+[ScrollMinimap] seek tap pos=98.43179898019108 dimension=664.0 seekLine=40 visible=39..73
+[EditorDemo] onSeek line=40 jumpTo=468.0
+[EditorDemo] scrollController offset=468.0 line≈23
+[ScrollMinimap] seek tap pos=96.68828173878723 dimension=664.0 seekLine=40 visible=39..73
+[EditorDemo] onSeek line=40 jumpTo=468.0
+[ScrollMinimap] seek tap pos=94.36359208361637 dimension=664.0 seekLine=39 visible=39..73
+[EditorDemo] onSeek line=39 jumpTo=448.0
+[EditorDemo] scrollController offset=448.0 line≈22
+[ScrollMinimap] seek tap pos=90.8765576009115 dimension=664.0 seekLine=37 visible=22..56
+[EditorDemo] onSeek line=37 jumpTo=408.0
+[EditorDemo] scrollController offset=408.0 line≈20
+[ScrollMinimap] seek tap pos=89.13304035950765 dimension=664.0 seekLine=36 visible=22..56
+[EditorDemo] onSeek line=36 jumpTo=388.0
+[EditorDemo] scrollController offset=388.0 line≈19
+[ScrollMinimap] seek tap pos=86.8083507043368 dimension=664.0 seekLine=35 visible=22..56
+[EditorDemo] onSeek line=35 jumpTo=368.0
+[EditorDemo] scrollController offset=368.0 line≈18
+[ScrollMinimap] seek tap pos=83.3213162215291 dimension=664.0 seekLine=34 visible=22..56
+[EditorDemo] onSeek line=34 jumpTo=348.0
+[EditorDemo] scrollController offset=348.0 line≈17
+[ScrollMinimap] seek tap pos=81.57779898012525 dimension=664.0 seekLine=33 visible=22..56
+[EditorDemo] onSeek line=33 jumpTo=328.0
+[EditorDemo] scrollController offset=328.0 line≈16
+[ScrollMinimap] seek tap pos=79.2531093249544 dimension=664.0 seekLine=32 visible=22..56
+[EditorDemo] onSeek line=32 jumpTo=308.0
+[EditorDemo] scrollController offset=308.0 line≈15
+[ScrollMinimap] seek tap pos=76.92841966978354 dimension=664.0 seekLine=31 visible=22..56
+[EditorDemo] onSeek line=31 jumpTo=288.0
+[EditorDemo] scrollController offset=288.0 line≈14
+[ScrollMinimap] seek tap pos=74.6037300146127 dimension=664.0 seekLine=30 visible=22..56
+[EditorDemo] onSeek line=30 jumpTo=268.0
+[EditorDemo] scrollController offset=268.0 line≈13
+[ScrollMinimap] seek tap pos=73.44138518707868 dimension=664.0 seekLine=30 visible=22..56
+[EditorDemo] onSeek line=30 jumpTo=268.0
+[ScrollMinimap] seek tap pos=71.11669553190782 dimension=664.0 seekLine=29 visible=22..56
+[EditorDemo] onSeek line=29 jumpTo=248.0
+[EditorDemo] scrollController offset=248.0 line≈12
+[ScrollMinimap] seek tap pos=68.79200587673697 dimension=664.0 seekLine=28 visible=22..56
+[EditorDemo] onSeek line=28 jumpTo=228.0
+[EditorDemo] scrollController offset=228.0 line≈11
+[ScrollMinimap] seek tap pos=67.62966104910012 dimension=664.0 seekLine=28 visible=22..56
+[EditorDemo] onSeek line=28 jumpTo=228.0
+[ScrollMinimap] seek tap pos=66.46731622156611 dimension=664.0 seekLine=27 visible=22..56
+[EditorDemo] onSeek line=27 jumpTo=208.0
+[EditorDemo] scrollController offset=208.0 line≈10
+[ScrollMinimap] seek tap pos=65.30497139392926 dimension=664.0 seekLine=27 visible=22..56
+[EditorDemo] onSeek line=27 jumpTo=208.0
+[ScrollMinimap] seek tap pos=64.72379898016227 dimension=664.0 seekLine=26 visible=10..44
+[EditorDemo] onSeek line=26 jumpTo=188.0
+[EditorDemo] scrollController offset=188.0 line≈9
+[ScrollMinimap] seek tap pos=63.56145415252543 dimension=664.0 seekLine=26 visible=10..44
+[EditorDemo] onSeek line=26 jumpTo=188.0
+[ScrollMinimap] seek tap pos=62.399109324991414 dimension=664.0 seekLine=25 visible=10..44
+[EditorDemo] onSeek line=25 jumpTo=168.0
+[EditorDemo] scrollController offset=168.0 line≈8
+[ScrollMinimap] seek tap pos=61.81793691112158 dimension=664.0 seekLine=25 visible=10..44
+[EditorDemo] onSeek line=25 jumpTo=168.0
+[ScrollMinimap] seek tap pos=60.655592083587564 dimension=664.0 seekLine=25 visible=10..44
+[EditorDemo] onSeek line=25 jumpTo=168.0
+[ScrollMinimap] seek tap pos=58.330902428416714 dimension=664.0 seekLine=24 visible=10..44
+[EditorDemo] onSeek line=24 jumpTo=148.0
+[EditorDemo] scrollController offset=148.0 line≈7
+[ScrollMinimap] seek tap pos=57.74973001454687 dimension=664.0 seekLine=23 visible=10..44
+[EditorDemo] onSeek line=23 jumpTo=128.0
+[EditorDemo] scrollController offset=128.0 line≈6
+[ScrollMinimap] seek tap pos=56.58738518701286 dimension=664.0 seekLine=23 visible=10..44
+[EditorDemo] onSeek line=23 jumpTo=128.0
+[ScrollMinimap] seek tap pos=54.84386794560901 dimension=664.0 seekLine=22 visible=10..44
+[EditorDemo] onSeek line=22 jumpTo=108.0
+[EditorDemo] scrollController offset=108.0 line≈5
+[ScrollMinimap] seek tap pos=53.10035070420517 dimension=664.0 seekLine=21 visible=10..44
+[EditorDemo] onSeek line=21 jumpTo=88.0
+[EditorDemo] scrollController offset=88.0 line≈4
+[ScrollMinimap] seek tap pos=51.938005876568326 dimension=664.0 seekLine=21 visible=10..44
+[EditorDemo] onSeek line=21 jumpTo=88.0
+[ScrollMinimap] seek tap pos=49.61331622139747 dimension=664.0 seekLine=20 visible=10..44
+[EditorDemo] onSeek line=20 jumpTo=68.0
+[EditorDemo] scrollController offset=68.0 line≈3
+[ScrollMinimap] seek tap pos=47.28862656622661 dimension=664.0 seekLine=19 visible=10..44
+[EditorDemo] onSeek line=19 jumpTo=48.0
+[EditorDemo] scrollController offset=48.0 line≈2
+[ScrollMinimap] seek tap pos=45.54510932482277 dimension=664.0 seekLine=18 visible=10..44
+[EditorDemo] onSeek line=18 jumpTo=28.0
+[EditorDemo] scrollController offset=28.0 line≈1
+[ScrollMinimap] seek tap pos=43.80159208341892 dimension=664.0 seekLine=18 visible=10..44
+[EditorDemo] onSeek line=18 jumpTo=28.0
+[ScrollMinimap] seek tap pos=41.47690242824807 dimension=664.0 seekLine=17 visible=1..35
+[EditorDemo] onSeek line=17 jumpTo=8.0
+[EditorDemo] scrollController offset=8.0 line≈0
+[ScrollMinimap] seek tap pos=40.89573001448106 dimension=664.0 seekLine=16 visible=1..35
+[EditorDemo] onSeek line=16 jumpTo=0.0
+[EditorDemo] scrollController offset=0.0 line≈0
+[ScrollMinimap] seek tap pos=38.5710403593102 dimension=664.0 seekLine=15 visible=1..35
+[EditorDemo] onSeek line=15 jumpTo=0.0
+[ScrollMinimap] seek tap pos=36.246350704139346 dimension=664.0 seekLine=15 visible=1..35
+[EditorDemo] onSeek line=15 jumpTo=0.0
+[ScrollMinimap] seek tap pos=35.66517829026951 dimension=664.0 seekLine=14 visible=1..35
+[EditorDemo] onSeek line=14 jumpTo=0.0
+[ScrollMinimap] seek tap pos=33.340488635098666 dimension=664.0 seekLine=13 visible=1..35
+[EditorDemo] onSeek line=13 jumpTo=0.0
+[ScrollMinimap] seek tap pos=31.596971393694815 dimension=664.0 seekLine=13 visible=1..35
+[EditorDemo] onSeek line=13 jumpTo=0.0
+[ScrollMinimap] seek tap pos=30.4346265661608 dimension=664.0 seekLine=12 visible=0..34
+[EditorDemo] onSeek line=12 jumpTo=0.0
+[ScrollMinimap] seek tap pos=29.853454152290965 dimension=664.0 seekLine=12 visible=0..34
+[EditorDemo] onSeek line=12 jumpTo=0.0
+[ScrollMinimap] seek tap pos=28.109936910887114 dimension=664.0 seekLine=11 visible=0..34
+[EditorDemo] onSeek line=11 jumpTo=0.0
+[ScrollMinimap] seek tap pos=26.9475920833531 dimension=664.0 seekLine=11 visible=0..34
+[EditorDemo] onSeek line=11 jumpTo=0.0
+[ScrollMinimap] seek tap pos=26.366419669483264 dimension=664.0 seekLine=10 visible=0..34
+[EditorDemo] onSeek line=10 jumpTo=0.0
+[ScrollMinimap] seek tap pos=24.622902428079414 dimension=664.0 seekLine=10 visible=0..34
+[EditorDemo] onSeek line=10 jumpTo=0.0
+[ScrollMinimap] seek tap pos=24.041730014312407 dimension=664.0 seekLine=9 visible=0..34
+[EditorDemo] onSeek line=9 jumpTo=0.0
+[ScrollMinimap] seek tap pos=22.879385186675563 dimension=664.0 seekLine=9 visible=0..34
+[EditorDemo] onSeek line=9 jumpTo=0.0
+[ScrollMinimap] seek tap pos=22.298212772908556 dimension=664.0 seekLine=9 visible=0..34
+[EditorDemo] onSeek line=9 jumpTo=0.0
+[ScrollMinimap] seek tap pos=21.71704035903872 dimension=664.0 seekLine=8 visible=0..34
+[EditorDemo] onSeek line=8 jumpTo=0.0
+[ScrollMinimap] seek tap pos=21.135867945271713 dimension=664.0 seekLine=8 visible=0..34
+[EditorDemo] onSeek line=8 jumpTo=0.0
+[ScrollMinimap] seek tap pos=19.97352311763487 dimension=664.0 seekLine=8 visible=0..34
+[EditorDemo] onSeek line=8 jumpTo=0.0
+[ScrollMinimap] seek tap pos=18.81117829010087 dimension=664.0 seekLine=7 visible=0..34
+[EditorDemo] onSeek line=7 jumpTo=0.0
+[ScrollMinimap] seek tap pos=17.648833462464026 dimension=664.0 seekLine=7 visible=0..34
+[EditorDemo] onSeek line=7 jumpTo=0.0
+[ScrollMinimap] seek tap pos=15.905316221060176 dimension=664.0 seekLine=6 visible=0..34
+[EditorDemo] onSeek line=6 jumpTo=0.0
+[ScrollMinimap] seek tap pos=15.324143807293169 dimension=664.0 seekLine=6 visible=0..34
+[EditorDemo] onSeek line=6 jumpTo=0.0
+[ScrollMinimap] seek tap pos=12.999454152122325 dimension=664.0 seekLine=5 visible=0..34
+[EditorDemo] onSeek line=5 jumpTo=0.0
+[ScrollMinimap] seek tap pos=12.418281738252489 dimension=664.0 seekLine=5 visible=0..34
+[EditorDemo] onSeek line=5 jumpTo=0.0
+[ScrollMinimap] seek tap pos=11.255936910718475 dimension=664.0 seekLine=4 visible=0..34
+[EditorDemo] onSeek line=4 jumpTo=0.0
+[ScrollMinimap] seek tap pos=9.512419669314625 dimension=664.0 seekLine=3 visible=0..34
+[EditorDemo] onSeek line=3 jumpTo=0.0
+[ScrollMinimap] seek tap pos=8.350074841677781 dimension=664.0 seekLine=3 visible=0..34
+[EditorDemo] onSeek line=3 jumpTo=0.0
+[ScrollMinimap] seek tap pos=7.768902427910774 dimension=664.0 seekLine=3 visible=0..34
+[EditorDemo] onSeek line=3 jumpTo=0.0
+[ScrollMinimap] seek tap pos=7.1877300140409375 dimension=664.0 seekLine=2 visible=0..34
+[EditorDemo] onSeek line=2 jumpTo=0.0
+[ScrollMinimap] seek tap pos=6.025385186506924 dimension=664.0 seekLine=2 visible=0..34
+[EditorDemo] onSeek line=2 jumpTo=0.0
+[ScrollMinimap] seek tap pos=4.281867945103073 dimension=664.0 seekLine=1 visible=0..34
+[EditorDemo] onSeek line=1 jumpTo=0.0
+[ScrollMinimap] seek tap pos=3.7006955312332366 dimension=664.0 seekLine=1 visible=0..34
+[EditorDemo] onSeek line=1 jumpTo=0.0
+[ScrollMinimap] seek tap pos=3.1195231174662297 dimension=664.0 seekLine=1 visible=0..34
+[EditorDemo] onSeek line=1 jumpTo=0.0
+[ScrollMinimap] seek tap pos=1.9571782898293861 dimension=664.0 seekLine=0 visible=0..34
+[EditorDemo] onSeek line=0 jumpTo=0.0
+[ScrollMinimap] seek tap pos=0.7948334622953865 dimension=664.0 seekLine=0 visible=0..34
+[EditorDemo] onSeek line=0 jumpTo=0.0
+[ScrollMinimap] seek tap pos=0.2136610484255499 dimension=664.0 seekLine=0 visible=0..34
+[EditorDemo] onSeek line=0 jumpTo=0.0
+[ScrollMinimap] seek tap pos=-0.367511365341457 dimension=664.0 seekLine=0 visible=0..34
+[EditorDemo] onSeek line=0 jumpTo=0.0
+[ScrollMinimap] panEnd type=_DragType.seek velocity=Velocity(0.0, 0.0)
+scroll with 2 fingers over the text editor below: ---------
+=====================================
+[EditorDemo] scrollController offset=0.6 line≈0
+[EditorDemo] scrollController offset=9.9 line≈0
+[EditorDemo] scrollController offset=18.0 line≈0
+[EditorDemo] scrollController offset=27.3 line≈1
+[EditorDemo] scrollController offset=37.2 line≈1
+[EditorDemo] scrollController offset=45.9 line≈2
+[EditorDemo] scrollController offset=55.8 line≈2
+[EditorDemo] scrollController offset=66.3 line≈3
+[EditorDemo] scrollController offset=75.6 line≈3
+[EditorDemo] scrollController offset=85.4 line≈4
+[EditorDemo] scrollController offset=95.3 line≈4
+[EditorDemo] scrollController offset=104.6 line≈5
+[EditorDemo] scrollController offset=113.9 line≈5
+[EditorDemo] scrollController offset=122.6 line≈6
+[EditorDemo] scrollController offset=130.8 line≈6
+[EditorDemo] scrollController offset=138.3 line≈6
+[EditorDemo] scrollController offset=145.9 line≈7
+[EditorDemo] scrollController offset=154.0 line≈7
+[EditorDemo] scrollController offset=161.6 line≈8
+[EditorDemo] scrollController offset=168.0 line≈8
+[EditorDemo] scrollController offset=174.4 line≈8
+[EditorDemo] scrollController offset=180.7 line≈9
+[EditorDemo] scrollController offset=187.1 line≈9
+[EditorDemo] scrollController offset=193.5 line≈9
+[EditorDemo] scrollController offset=199.9 line≈9
+[EditorDemo] scrollController offset=206.3 line≈10
+[EditorDemo] scrollController offset=212.7 line≈10
+[EditorDemo] scrollController offset=219.1 line≈10
+[EditorDemo] scrollController offset=225.5 line≈11
+[EditorDemo] scrollController offset=230.7 line≈11
+[EditorDemo] scrollController offset=235.4 line≈11
+[EditorDemo] scrollController offset=240.0 line≈12
+[EditorDemo] scrollController offset=244.7 line≈12
+[EditorDemo] scrollController offset=248.7 line≈12
+[EditorDemo] scrollController offset=252.8 line≈12
+[EditorDemo] scrollController offset=256.3 line≈12
+[EditorDemo] scrollController offset=259.8 line≈12
+[EditorDemo] scrollController offset=263.3 line≈13
+[EditorDemo] scrollController offset=266.8 line≈13
+[EditorDemo] scrollController offset=270.2 line≈13
+[EditorDemo] scrollController offset=273.7 line≈13
+[EditorDemo] scrollController offset=277.2 line≈13
+[EditorDemo] scrollController offset=280.7 line≈14
+[EditorDemo] scrollController offset=284.2 line≈14
+[EditorDemo] scrollController offset=287.7 line≈14
+[EditorDemo] scrollController offset=291.2 line≈14
+[EditorDemo] scrollController offset=294.7 line≈14
+[EditorDemo] scrollController offset=298.1 line≈14
+[EditorDemo] scrollController offset=300.5 line≈15
+[EditorDemo] scrollController offset=302.8 line≈15
+[EditorDemo] scrollController offset=305.1 line≈15
+[EditorDemo] scrollController offset=307.4 line≈15
+[EditorDemo] scrollController offset=309.2 line≈15
+[EditorDemo] scrollController offset=309.8 line≈15
+[EditorDemo] scrollController offset=311.5 line≈15
+[EditorDemo] scrollController offset=312.1 line≈15
+[EditorDemo] scrollController offset=313.3 line≈15
+[EditorDemo] scrollController offset=314.4 line≈15
+[EditorDemo] scrollController offset=315.6 line≈15
+[EditorDemo] scrollController offset=317.3 line≈15
+[EditorDemo] scrollController offset=317.9 line≈15
+[EditorDemo] scrollController offset=319.1 line≈15
+[EditorDemo] scrollController offset=320.2 line≈16
+[EditorDemo] scrollController offset=321.4 line≈16
+[EditorDemo] scrollController offset=322.6 line≈16
+[EditorDemo] scrollController offset=324.3 line≈16
+[EditorDemo] scrollController offset=326.0 line≈16
+[EditorDemo] scrollController offset=326.6 line≈16
+[EditorDemo] scrollController offset=327.8 line≈16
+[EditorDemo] scrollController offset=330.7 line≈16
+[EditorDemo] scrollController offset=333.0 line≈16
+[EditorDemo] scrollController offset=334.2 line≈16
+[EditorDemo] scrollController offset=337.1 line≈16
+[EditorDemo] scrollController offset=338.8 line≈16
+[EditorDemo] scrollController offset=340.0 line≈16
+[EditorDemo] scrollController offset=342.9 line≈17
+[EditorDemo] scrollController offset=345.2 line≈17
+[EditorDemo] scrollController offset=346.4 line≈17
+[EditorDemo] scrollController offset=349.3 line≈17
+[EditorDemo] scrollController offset=351.6 line≈17
+[EditorDemo] scrollController offset=352.2 line≈17
+[EditorDemo] scrollController offset=354.5 line≈17
+[EditorDemo] scrollController offset=357.4 line≈17
+[EditorDemo] scrollController offset=359.2 line≈17
+[EditorDemo] scrollController offset=360.3 line≈18
+[EditorDemo] scrollController offset=362.7 line≈18
+[EditorDemo] scrollController offset=364.4 line≈18
+[EditorDemo] scrollController offset=365.6 line≈18
+[EditorDemo] scrollController offset=367.3 line≈18
+[EditorDemo] scrollController offset=369.6 line≈18
+[EditorDemo] scrollController offset=370.2 line≈18
+[EditorDemo] scrollController offset=372.5 line≈18
+[EditorDemo] scrollController offset=374.9 line≈18
+[EditorDemo] scrollController offset=375.4 line≈18
+[EditorDemo] scrollController offset=377.8 line≈18
+[EditorDemo] scrollController offset=380.7 line≈19
+[EditorDemo] scrollController offset=381.8 line≈19
+[EditorDemo] scrollController offset=384.2 line≈19
+[EditorDemo] scrollController offset=387.1 line≈19
+[EditorDemo] scrollController offset=390.5 line≈19
+[EditorDemo] scrollController offset=392.3 line≈19
+[EditorDemo] scrollController offset=395.2 line≈19
+[EditorDemo] scrollController offset=398.7 line≈19
+[EditorDemo] scrollController offset=401.0 line≈20
+[EditorDemo] scrollController offset=403.3 line≈20
+[EditorDemo] scrollController offset=406.2 line≈20
+[EditorDemo] scrollController offset=408.0 line≈20
+[EditorDemo] scrollController offset=410.3 line≈20
+[EditorDemo] scrollController offset=413.2 line≈20
+[EditorDemo] scrollController offset=415.0 line≈20
+[EditorDemo] scrollController offset=417.3 line≈20
+[EditorDemo] scrollController offset=419.6 line≈20
+[EditorDemo] scrollController offset=421.9 line≈21
+[EditorDemo] scrollController offset=423.1 line≈21
+[EditorDemo] scrollController offset=425.4 line≈21
+[EditorDemo] scrollController offset=427.7 line≈21
+[EditorDemo] scrollController offset=428.9 line≈21
+[EditorDemo] scrollController offset=431.2 line≈21
+[EditorDemo] scrollController offset=434.1 line≈21
+[EditorDemo] scrollController offset=435.3 line≈21
+[EditorDemo] scrollController offset=437.6 line≈21
+[EditorDemo] scrollController offset=439.9 line≈21
+[EditorDemo] scrollController offset=441.1 line≈22
+[EditorDemo] scrollController offset=443.4 line≈22
+[EditorDemo] scrollController offset=446.3 line≈22
+[EditorDemo] scrollController offset=449.8 line≈22
+[EditorDemo] scrollController offset=451.0 line≈22
+[EditorDemo] scrollController offset=453.3 line≈22
+[EditorDemo] scrollController offset=455.6 line≈22
+[EditorDemo] scrollController offset=456.8 line≈22
+[EditorDemo] scrollController offset=458.5 line≈22
+[EditorDemo] scrollController offset=459.7 line≈22
+[EditorDemo] scrollController offset=460.3 line≈23
+[EditorDemo] scrollController offset=462.0 line≈23
+[EditorDemo] scrollController offset=462.6 line≈23
+[EditorDemo] scrollController offset=463.2 line≈23
+[EditorDemo] scrollController offset=464.9 line≈23
+[EditorDemo] scrollController offset=465.5 line≈23
+[EditorDemo] scrollController offset=466.1 line≈23
+[EditorDemo] scrollController offset=466.7 line≈23
+[EditorDemo] scrollController offset=467.3 line≈23
+[EditorDemo] scrollController offset=468.4 line≈23
+[EditorDemo] scrollController offset=467.8 line≈23
+[EditorDemo] scrollController offset=464.9 line≈23
+[EditorDemo] scrollController offset=463.2 line≈23
+[EditorDemo] scrollController offset=459.7 line≈22
+[EditorDemo] scrollController offset=456.2 line≈22
+[EditorDemo] scrollController offset=453.9 line≈22
+[EditorDemo] scrollController offset=449.2 line≈22
+[EditorDemo] scrollController offset=445.2 line≈22
+[EditorDemo] scrollController offset=442.9 line≈22
+[EditorDemo] scrollController offset=438.8 line≈21
+[EditorDemo] scrollController offset=433.6 line≈21
+[EditorDemo] scrollController offset=428.9 line≈21
+[EditorDemo] scrollController offset=424.3 line≈21
+[EditorDemo] scrollController offset=417.9 line≈20
+[EditorDemo] scrollController offset=412.1 line≈20
+[EditorDemo] scrollController offset=407.4 line≈20
+[EditorDemo] scrollController offset=401.0 line≈20
+[EditorDemo] scrollController offset=394.0 line≈19
+[EditorDemo] scrollController offset=389.4 line≈19
+[EditorDemo] scrollController offset=382.4 line≈19
+[EditorDemo] scrollController offset=375.4 line≈18
+[EditorDemo] scrollController offset=369.6 line≈18
+[EditorDemo] scrollController offset=362.7 line≈18
+[EditorDemo] scrollController offset=355.7 line≈17
+[EditorDemo] scrollController offset=347.5 line≈17
+[EditorDemo] scrollController offset=340.6 line≈17
+[EditorDemo] scrollController offset=332.4 line≈16
+[EditorDemo] scrollController offset=324.3 line≈16
+[EditorDemo] scrollController offset=317.3 line≈15
+[EditorDemo] scrollController offset=310.3 line≈15
+[EditorDemo] scrollController offset=302.8 line≈15
+[EditorDemo] scrollController offset=296.4 line≈14
+[EditorDemo] scrollController offset=289.4 line≈14
+[EditorDemo] scrollController offset=281.9 line≈14
+[EditorDemo] scrollController offset=275.5 line≈13
+[EditorDemo] scrollController offset=267.9 line≈13
+[EditorDemo] scrollController offset=261.5 line≈13
+[EditorDemo] scrollController offset=255.7 line≈12
+[EditorDemo] scrollController offset=248.7 line≈12
+[EditorDemo] scrollController offset=242.9 line≈12
+[EditorDemo] scrollController offset=237.1 line≈11
+[EditorDemo] scrollController offset=229.6 line≈11
+[EditorDemo] scrollController offset=224.9 line≈11
+[EditorDemo] scrollController offset=219.1 line≈10
+[EditorDemo] scrollController offset=214.5 line≈10
+[EditorDemo] scrollController offset=208.6 line≈10
+[EditorDemo] scrollController offset=204.6 line≈10
+[EditorDemo] scrollController offset=199.9 line≈9
+[EditorDemo] scrollController offset=194.7 line≈9
+[EditorDemo] scrollController offset=191.2 line≈9
+[EditorDemo] scrollController offset=187.1 line≈9
+[EditorDemo] scrollController offset=182.5 line≈9
+[EditorDemo] scrollController offset=178.4 line≈8
+[EditorDemo] scrollController offset=173.2 line≈8
+[EditorDemo] scrollController offset=169.1 line≈8
+[EditorDemo] scrollController offset=164.5 line≈8
+[EditorDemo] scrollController offset=158.7 line≈7
+[EditorDemo] scrollController offset=154.6 line≈7
+[EditorDemo] scrollController offset=149.4 line≈7
+[EditorDemo] scrollController offset=143.0 line≈7
+[EditorDemo] scrollController offset=138.3 line≈6
+[EditorDemo] scrollController offset=132.5 line≈6
+[EditorDemo] scrollController offset=126.1 line≈6
+[EditorDemo] scrollController offset=120.9 line≈6
+[EditorDemo] scrollController offset=116.2 line≈5
+[EditorDemo] scrollController offset=109.8 line≈5
+[EditorDemo] scrollController offset=105.2 line≈5
+[EditorDemo] scrollController offset=100.5 line≈5
+[EditorDemo] scrollController offset=94.7 line≈4
+[EditorDemo] scrollController offset=90.1 line≈4
+[EditorDemo] scrollController offset=86.0 line≈4
+[EditorDemo] scrollController offset=81.4 line≈4
+[EditorDemo] scrollController offset=76.7 line≈3
+[EditorDemo] scrollController offset=73.2 line≈3
+[EditorDemo] scrollController offset=69.7 line≈3
+[EditorDemo] scrollController offset=65.1 line≈3
+[EditorDemo] scrollController offset=61.6 line≈3
+[EditorDemo] scrollController offset=58.7 line≈2
+[EditorDemo] scrollController offset=55.2 line≈2
+[EditorDemo] scrollController offset=52.9 line≈2
+[EditorDemo] scrollController offset=49.4 line≈2
+[EditorDemo] scrollController offset=46.5 line≈2
+[EditorDemo] scrollController offset=44.8 line≈2
+[EditorDemo] scrollController offset=41.8 line≈2
+[EditorDemo] scrollController offset=38.9 line≈1
+[EditorDemo] scrollController offset=37.8 line≈1
+[EditorDemo] scrollController offset=36.6 line≈1
+[EditorDemo] scrollController offset=33.7 line≈1
+[EditorDemo] scrollController offset=30.8 line≈1
+[EditorDemo] scrollController offset=29.1 line≈1
+[EditorDemo] scrollController offset=26.7 line≈1
+[EditorDemo] scrollController offset=23.2 line≈1
+[EditorDemo] scrollController offset=22.1 line≈1
+[EditorDemo] scrollController offset=18.6 line≈0
+[EditorDemo] scrollController offset=15.1 line≈0
+[EditorDemo] scrollController offset=11.6 line≈0
+[EditorDemo] scrollController offset=9.9 line≈0
+[EditorDemo] scrollController offset=5.8 line≈0
+[EditorDemo] scrollController offset=1.2 line≈0
+[EditorDemo] scrollController offset=0.0 line≈0
+scroll by click and drag on minimap (scrub) below: ---
+===
+[ScrollMinimap] panStart type=_DragType.scrub local=Offset(17.4, 43.7) dragStartPos=43.727508544921875 visible=0..34
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=52.93853759765625 dragStartPos=43.727508544921875 delta=9.211029052734375 dValue=3.8148087191294477 targetStart=3.8148087191294477
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=3.8148087191294477..37.814808719129445 clamped=3..37 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=3 jumpTo=60.0
+[EditorDemo] scrollController offset=60.0 line≈3
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=56.228179931640625 dragStartPos=43.727508544921875 delta=12.50067138671875 dValue=5.17723589058382 targetStart=5.17723589058382
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=5.17723589058382..39.177235890583816 clamped=5..39 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=5 jumpTo=100.0
+[EditorDemo] scrollController offset=100.0 line≈5
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=59.517852783203125 dragStartPos=43.727508544921875 delta=15.79034423828125 dValue=6.539675701095397 targetStart=6.539675701095397
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=6.539675701095397..40.5396757010954 clamped=6..40 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=6 jumpTo=120.0
+[EditorDemo] scrollController offset=120.0 line≈6
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=62.478546142578125 dragStartPos=43.727508544921875 delta=18.75103759765625 dValue=7.765866474932936 targetStart=7.765866474932936
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=7.765866474932936..41.765866474932935 clamped=7..41 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=7 jumpTo=140.0
+[EditorDemo] scrollController offset=140.0 line≈7
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=65.439208984375 dragStartPos=43.727508544921875 delta=21.711700439453125 dValue=8.992044609713268 targetStart=8.992044609713268
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=8.992044609713268..42.99204460971327 clamped=8..42 previous=7..41
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=8 jumpTo=160.0
+[EditorDemo] scrollController offset=160.0 line≈8
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=75.96612548828125 dragStartPos=43.727508544921875 delta=32.238616943359375 dValue=13.351836836481668 targetStart=13.351836836481668
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=13.351836836481668..47.35183683648167 clamped=13..47 previous=7..41
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=13 jumpTo=260.0
+[EditorDemo] scrollController offset=260.0 line≈13
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=84.19024658203125 dragStartPos=43.727508544921875 delta=40.462738037109375 dValue=16.757911084646203 targetStart=16.757911084646203
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=16.757911084646203..50.7579110846462 clamped=16..50 previous=7..41
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=16 jumpTo=320.0
+[EditorDemo] scrollController offset=320.0 line≈16
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=87.15093994140625 dragStartPos=43.727508544921875 delta=43.423431396484375 dValue=17.98410185848374 targetStart=17.98410185848374
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=17.98410185848374..51.98410185848374 clamped=17..51 previous=7..41
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=17 jumpTo=340.0
+[EditorDemo] scrollController offset=340.0 line≈17
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=103.59921264648438 dragStartPos=43.727508544921875 delta=59.8717041015625 dValue=24.796262993870013 targetStart=24.796262993870013
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=24.796262993870013..58.796262993870016 clamped=24..58 previous=17..51
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=24 jumpTo=480.0
+[EditorDemo] scrollController offset=480.0 line≈24
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=110.83648681640625 dragStartPos=43.727508544921875 delta=67.10897827148438 dValue=27.79362804918404 targetStart=27.79362804918404
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=27.79362804918404..61.793628049184036 clamped=27..61 previous=17..51
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=27 jumpTo=540.0
+[EditorDemo] scrollController offset=540.0 line≈27
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=114.7840576171875 dragStartPos=43.727508544921875 delta=71.05654907226562 dValue=29.428540654929286 targetStart=29.428540654929286
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=29.428540654929286..63.428540654929286 clamped=29..63 previous=17..51
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=29 jumpTo=580.0
+[EditorDemo] scrollController offset=580.0 line≈29
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=116.7578125 dragStartPos=43.727508544921875 delta=73.03030395507812 dValue=30.245984318744704 targetStart=30.245984318744704
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=30.245984318744704..64.2459843187447 clamped=30..64 previous=17..51
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=30 jumpTo=600.0
+[EditorDemo] scrollController offset=600.0 line≈30
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=118.73162841796875 dragStartPos=43.727508544921875 delta=75.00411987304688 dValue=31.06345326067453 targetStart=31.06345326067453
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=31.06345326067453..65.06345326067454 clamped=31..65 previous=30..64
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=31 jumpTo=620.0
+[EditorDemo] scrollController offset=620.0 line≈31
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=127.61370849609375 dragStartPos=43.727508544921875 delta=83.88619995117188 dValue=34.742025582187146 targetStart=34.742025582187146
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=34.742025582187146..68.74202558218715 clamped=34..68 previous=30..64
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=34 jumpTo=680.0
+[EditorDemo] scrollController offset=680.0 line≈34
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=134.52197265625 dragStartPos=43.727508544921875 delta=90.79446411132812 dValue=37.603128961769926 targetStart=37.603128961769926
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=37.603128961769926..71.60312896176993 clamped=37..71 previous=30..64
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=37 jumpTo=740.0
+[EditorDemo] scrollController offset=740.0 line≈37
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=135.50885009765625 dragStartPos=43.727508544921875 delta=91.78134155273438 dValue=38.01185079367764 targetStart=38.01185079367764
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=38.01185079367764..72.01185079367764 clamped=38..72 previous=30..64
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=38 jumpTo=760.0
+[EditorDemo] scrollController offset=760.0 line≈38
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=140.443359375 dragStartPos=43.727508544921875 delta=96.71585083007812 dValue=40.05551050944501 targetStart=40.05551050944501
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=40.05551050944501..74.05551050944501 clamped=40..74 previous=38..72
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=40 jumpTo=800.0
+[EditorDemo] scrollController offset=800.0 line≈40
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=148.33856201171875 dragStartPos=43.727508544921875 delta=104.61105346679688 dValue=43.32536099904991 targetStart=43.32536099904991
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=43.32536099904991..77.3253609990499 clamped=43..77 previous=40..74
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=43 jumpTo=860.0
+[EditorDemo] scrollController offset=860.0 line≈43
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=149.6544189453125 dragStartPos=43.727508544921875 delta=105.92691040039062 dValue=43.87033186763166 targetStart=43.87033186763166
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=43.87033186763166..77.87033186763166 clamped=43..77 previous=40..74
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=43 jumpTo=860.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=150.31231689453125 dragStartPos=43.727508544921875 delta=106.58480834960938 dValue=44.14280466286533 targetStart=44.14280466286533
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=44.14280466286533..78.14280466286533 clamped=44..78 previous=40..74
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=44 jumpTo=880.0
+[EditorDemo] scrollController offset=880.0 line≈44
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=150.97027587890625 dragStartPos=43.727508544921875 delta=107.24276733398438 dValue=44.41530273621341 targetStart=44.41530273621341
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=44.41530273621341..78.41530273621342 clamped=44..78 previous=44..78
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=44 jumpTo=880.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=152.2861328125 dragStartPos=43.727508544921875 delta=108.55862426757812 dValue=44.960273604795155 targetStart=44.960273604795155
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=44.960273604795155..78.96027360479516 clamped=44..78 previous=44..78
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=44 jumpTo=880.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=154.9178466796875 dragStartPos=43.727508544921875 delta=111.19033813476562 dValue=46.050215341958655 targetStart=46.050215341958655
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=46.050215341958655..80.05021534195865 clamped=46..80 previous=44..78
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=46 jumpTo=920.0
+[EditorDemo] scrollController offset=920.0 line≈46
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=155.57574462890625 dragStartPos=43.727508544921875 delta=111.84823608398438 dValue=46.32268813719232 targetStart=46.32268813719232
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=46.32268813719232..80.32268813719233 clamped=46..80 previous=44..78
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=46 jumpTo=920.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=156.23370361328125 dragStartPos=43.727508544921875 delta=112.50619506835938 dValue=46.595186210540405 targetStart=46.595186210540405
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=46.595186210540405..80.5951862105404 clamped=46..80 previous=46..80
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=46 jumpTo=920.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=158.86541748046875 dragStartPos=43.727508544921875 delta=115.13790893554688 dValue=47.685127947703904 targetStart=47.685127947703904
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=47.685127947703904..81.6851279477039 clamped=47..81 previous=46..80
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=47 jumpTo=940.0
+[EditorDemo] scrollController offset=940.0 line≈47
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=161.168212890625 dragStartPos=43.727508544921875 delta=117.44070434570312 dValue=48.638845926307766 targetStart=48.638845926307766
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=48.638845926307766..82.63884592630777 clamped=48..82 previous=46..80
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=48 jumpTo=960.0
+[EditorDemo] scrollController offset=960.0 line≈48
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=162.15509033203125 dragStartPos=43.727508544921875 delta=118.42758178710938 dValue=49.04756775821548 targetStart=49.04756775821548
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=49.04756775821548..83.04756775821548 clamped=49..83 previous=48..82
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=49 jumpTo=980.0
+[EditorDemo] scrollController offset=980.0 line≈49
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=166.7606201171875 dragStartPos=43.727508544921875 delta=123.03311157226562 dValue=50.9549784373088 targetStart=50.9549784373088
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=50.9549784373088..84.9549784373088 clamped=50..84 previous=48..82
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=50 jumpTo=1000.0
+[EditorDemo] scrollController offset=1000.0 line≈50
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=173.66888427734375 dragStartPos=43.727508544921875 delta=129.94137573242188 dValue=53.81608181689159 targetStart=53.81608181689159
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=53.81608181689159..87.8160818168916 clamped=53..87 previous=50..84
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=53 jumpTo=1060.0
+[EditorDemo] scrollController offset=1060.0 line≈53
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=177.9454345703125 dragStartPos=43.727508544921875 delta=134.21792602539062 dValue=55.587243459310876 targetStart=55.587243459310876
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=55.587243459310876..89.58724345931088 clamped=55..89 previous=50..84
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=55 jumpTo=1100.0
+[EditorDemo] scrollController offset=1100.0 line≈55
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=178.93231201171875 dragStartPos=43.727508544921875 delta=135.20480346679688 dValue=55.99596529121859 targetStart=55.99596529121859
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=55.99596529121859..89.9959652912186 clamped=55..89 previous=50..84
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=55 jumpTo=1100.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=179.91925048828125 dragStartPos=43.727508544921875 delta=136.19174194335938 dValue=56.4047124012407 targetStart=56.4047124012407
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=56.4047124012407..90.4047124012407 clamped=56..90 previous=50..84
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=56 jumpTo=1120.0
+[EditorDemo] scrollController offset=1120.0 line≈56
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=182.8798828125 dragStartPos=43.727508544921875 delta=139.15237426757812 dValue=57.63087789696383 targetStart=57.63087789696383
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=57.63087789696383..91.63087789696382 clamped=57..91 previous=56..90
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=57 jumpTo=1140.0
+[EditorDemo] scrollController offset=1140.0 line≈57
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=184.85369873046875 dragStartPos=43.727508544921875 delta=141.12619018554688 dValue=58.44834683889366 targetStart=58.44834683889366
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=58.44834683889366..92.44834683889366 clamped=58..92 previous=57..91
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=58 jumpTo=1160.0
+[EditorDemo] scrollController offset=1160.0 line≈58
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=185.51165771484375 dragStartPos=43.727508544921875 delta=141.78414916992188 dValue=58.720844912241745 targetStart=58.720844912241745
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=58.720844912241745..92.72084491224174 clamped=58..92 previous=57..91
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=58 jumpTo=1160.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=185.840576171875 dragStartPos=43.727508544921875 delta=142.11306762695312 dValue=58.857068670801375 targetStart=58.857068670801375
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=58.857068670801375..92.85706867080137 clamped=58..92 previous=57..91
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=58 jumpTo=1160.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=187.81439208984375 dragStartPos=43.727508544921875 delta=144.08688354492188 dValue=59.6745376127312 targetStart=59.6745376127312
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=59.6745376127312..93.6745376127312 clamped=59..93 previous=57..91
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=59 jumpTo=1180.0
+[EditorDemo] scrollController offset=1180.0 line≈59
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=188.14337158203125 dragStartPos=43.727508544921875 delta=144.41586303710938 dValue=59.81078664940524 targetStart=59.81078664940524
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=59.81078664940524..93.81078664940523 clamped=59..93 previous=57..91
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=59 jumpTo=1180.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=190.11712646484375 dragStartPos=43.727508544921875 delta=146.38961791992188 dValue=60.628230313220655 targetStart=60.628230313220655
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=60.628230313220655..94.62823031322066 clamped=60..94 previous=59..93
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=60 jumpTo=1200.0
+[EditorDemo] scrollController offset=1200.0 line≈60
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=190.74053955078125 dragStartPos=43.727508544921875 delta=147.01303100585938 dValue=60.88642097381224 targetStart=60.88642097381224
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=60.88642097381224..94.88642097381225 clamped=60..94 previous=59..93
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=60 jumpTo=1200.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=191.0694580078125 dragStartPos=43.727508544921875 delta=147.34194946289062 dValue=61.02264473237187 targetStart=61.02264473237187
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=61.02264473237187..95.02264473237187 clamped=61..95 previous=59..93
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=61 jumpTo=1220.0
+[EditorDemo] scrollController offset=1220.0 line≈61
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=192.3853759765625 dragStartPos=43.727508544921875 delta=148.65786743164062 dValue=61.56764087906803 targetStart=61.56764087906803
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=61.56764087906803..95.56764087906802 clamped=61..95 previous=61..95
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=61 jumpTo=1220.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=193.70123291015625 dragStartPos=43.727508544921875 delta=149.97372436523438 dValue=62.11261174764978 targetStart=62.11261174764978
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=62.11261174764978..96.11261174764978 clamped=62..96 previous=61..95
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=62 jumpTo=1240.0
+[EditorDemo] scrollController offset=1240.0 line≈62
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=194.00909423828125 dragStartPos=43.727508544921875 delta=150.28158569335938 dValue=62.24011455673769 targetStart=62.24011455673769
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=62.24011455673769..96.2401145567377 clamped=62..96 previous=62..96
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=62 jumpTo=1240.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=194.23486328125 dragStartPos=43.727508544921875 delta=150.50735473632812 dValue=62.333618301943126 targetStart=62.333618301943126
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=62.333618301943126..96.33361830194312 clamped=62..96 previous=62..96
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=62 jumpTo=1240.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=194.5433349609375 dragStartPos=43.727508544921875 delta=150.81582641601562 dValue=62.461373892175146 targetStart=62.461373892175146
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=62.461373892175146..96.46137389217515 clamped=62..96 previous=62..96
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=62 jumpTo=1240.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=194.82855224609375 dragStartPos=43.727508544921875 delta=151.10104370117188 dValue=62.579498520816664 targetStart=62.579498520816664
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=62.579498520816664..96.57949852081666 clamped=62..96 previous=62..96
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=62 jumpTo=1240.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=195.11431884765625 dragStartPos=43.727508544921875 delta=151.38681030273438 dValue=62.69785065248789 targetStart=62.69785065248789
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=62.69785065248789..96.69785065248789 clamped=62..96 previous=62..96
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=62 jumpTo=1240.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=196.03961181640625 dragStartPos=43.727508544921875 delta=152.31210327148438 dValue=63.081066866955126 targetStart=63.081066866955126
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=63.081066866955126..97.08106686695513 clamped=63..97 previous=62..96
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=63 jumpTo=1260.0
+[EditorDemo] scrollController offset=1260.0 line≈63
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=196.606201171875 dragStartPos=43.727508544921875 delta=152.87869262695312 dValue=63.315723603030285 targetStart=63.315723603030285
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=63.315723603030285..97.31572360303028 clamped=63..97 previous=63..97
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=63 jumpTo=1260.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=197.04510498046875 dragStartPos=43.727508544921875 delta=153.31759643554688 dValue=63.49749852375812 targetStart=63.49749852375812
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=63.49749852375812..97.49749852375811 clamped=63..97 previous=63..97
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=63 jumpTo=1260.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=197.8155517578125 dragStartPos=43.727508544921875 delta=154.08804321289062 dValue=63.81658416196524 targetStart=63.81658416196524
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=63.81658416196524..97.81658416196524 clamped=63..97 previous=63..97
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=63 jumpTo=1260.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=197.65771484375 dragStartPos=43.727508544921875 delta=153.93020629882812 dValue=63.751214958099 targetStart=63.751214958099
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=63.751214958099..97.751214958099 clamped=63..97 previous=63..97
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=63 jumpTo=1260.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=197.418212890625 dragStartPos=43.727508544921875 delta=153.69070434570312 dValue=63.652023637151146 targetStart=63.652023637151146
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=63.652023637151146..97.65202363715115 clamped=63..97 previous=63..97
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=63 jumpTo=1260.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=196.76025390625 dragStartPos=43.727508544921875 delta=153.03274536132812 dValue=63.379525563803064 targetStart=63.379525563803064
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=63.379525563803064..97.37952556380307 clamped=63..97 previous=63..97
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=63 jumpTo=1260.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=195.77337646484375 dragStartPos=43.727508544921875 delta=152.04586791992188 dValue=62.97080373189536 targetStart=62.97080373189536
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=62.97080373189536..96.97080373189536 clamped=62..96 previous=63..97
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=62 jumpTo=1240.0
+[EditorDemo] scrollController offset=1240.0 line≈62
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=195.44439697265625 dragStartPos=43.727508544921875 delta=151.71688842773438 dValue=62.834554695221314 targetStart=62.834554695221314
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=62.834554695221314..96.83455469522131 clamped=62..96 previous=63..97
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=62 jumpTo=1240.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=194.7864990234375 dragStartPos=43.727508544921875 delta=151.05899047851562 dValue=62.562081899987646 targetStart=62.562081899987646
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=62.562081899987646..96.56208189998765 clamped=62..96 previous=63..97
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=62 jumpTo=1240.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=192.81268310546875 dragStartPos=43.727508544921875 delta=149.08517456054688 dValue=61.744612958057814 targetStart=61.744612958057814
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=61.744612958057814..95.74461295805781 clamped=61..95 previous=62..96
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=61 jumpTo=1220.0
+[EditorDemo] scrollController offset=1220.0 line≈61
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=188.8651123046875 dragStartPos=43.727508544921875 delta=145.13760375976562 dValue=60.10970035231257 targetStart=60.10970035231257
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=60.10970035231257..94.10970035231257 clamped=60..94 previous=62..96
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=60 jumpTo=1200.0
+[EditorDemo] scrollController offset=1200.0 line≈60
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=187.54925537109375 dragStartPos=43.727508544921875 delta=143.82174682617188 dValue=59.56472948373082 targetStart=59.56472948373082
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=59.56472948373082..93.56472948373082 clamped=59..93 previous=62..96
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=59 jumpTo=1180.0
+[EditorDemo] scrollController offset=1180.0 line≈59
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=182.9437255859375 dragStartPos=43.727508544921875 delta=139.21621704101562 dValue=57.6573188046375 targetStart=57.6573188046375
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=57.6573188046375..91.6573188046375 clamped=57..91 previous=59..93
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=57 jumpTo=1140.0
+[EditorDemo] scrollController offset=1140.0 line≈57
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=178.66717529296875 dragStartPos=43.727508544921875 delta=134.93966674804688 dValue=55.886157162218204 targetStart=55.886157162218204
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=55.886157162218204..89.88615716221821 clamped=55..89 previous=59..93
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=55 jumpTo=1100.0
+[EditorDemo] scrollController offset=1100.0 line≈55
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=177.0223388671875 dragStartPos=43.727508544921875 delta=133.29483032226562 dValue=55.204937256962424 targetStart=55.204937256962424
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=55.204937256962424..89.20493725696242 clamped=55..89 previous=59..93
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=55 jumpTo=1100.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=169.12713623046875 dragStartPos=43.727508544921875 delta=125.39962768554688 dValue=51.93508676735752 targetStart=51.93508676735752
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=51.93508676735752..85.93508676735752 clamped=51..85 previous=55..89
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=51 jumpTo=1020.0
+[EditorDemo] scrollController offset=1020.0 line≈51
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=158.60028076171875 dragStartPos=43.727508544921875 delta=114.87277221679688 dValue=47.57531981870352 targetStart=47.57531981870352
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=47.57531981870352..81.57531981870352 clamped=47..81 previous=51..85
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=47 jumpTo=940.0
+[EditorDemo] scrollController offset=940.0 line≈47
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=155.31060791015625 dragStartPos=43.727508544921875 delta=111.58309936523438 dValue=46.21288000819195 targetStart=46.21288000819195
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=46.21288000819195..80.21288000819195 clamped=46..80 previous=51..85
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=46 jumpTo=920.0
+[EditorDemo] scrollController offset=920.0 line≈46
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=154.32373046875 dragStartPos=43.727508544921875 delta=110.59622192382812 dValue=45.80415817628424 targetStart=45.80415817628424
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=45.80415817628424..79.80415817628423 clamped=45..79 previous=51..85
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=45 jumpTo=900.0
+[EditorDemo] scrollController offset=900.0 line≈45
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=153.00787353515625 dragStartPos=43.727508544921875 delta=109.28036499023438 dValue=45.25918730770249 targetStart=45.25918730770249
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=45.25918730770249..79.25918730770249 clamped=45..79 previous=45..79
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=45 jumpTo=900.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=149.38922119140625 dragStartPos=43.727508544921875 delta=105.66171264648438 dValue=43.76049846051687 targetStart=43.76049846051687
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=43.76049846051687..77.76049846051687 clamped=43..77 previous=45..79
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=43 jumpTo=860.0
+[EditorDemo] scrollController offset=860.0 line≈43
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=142.48095703125 dragStartPos=43.727508544921875 delta=98.75344848632812 dValue=40.89939508093409 targetStart=40.89939508093409
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=40.89939508093409..74.89939508093408 clamped=40..74 previous=43..77
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=40 jumpTo=800.0
+[EditorDemo] scrollController offset=800.0 line≈40
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=132.94097900390625 dragStartPos=43.727508544921875 delta=89.21347045898438 dValue=36.948349964187805 targetStart=36.948349964187805
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=36.948349964187805..70.9483499641878 clamped=36..70 previous=43..77
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=36 jumpTo=720.0
+[EditorDemo] scrollController offset=720.0 line≈36
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=130.63818359375 dragStartPos=43.727508544921875 delta=86.91067504882812 dValue=35.994631985583936 targetStart=35.994631985583936
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=35.994631985583936..69.99463198558394 clamped=35..69 previous=43..77
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=35 jumpTo=700.0
+[EditorDemo] scrollController offset=700.0 line≈35
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=128.33544921875 dragStartPos=43.727508544921875 delta=84.60794067382812 dValue=35.04093928509448 targetStart=35.04093928509448
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=35.04093928509448..69.04093928509448 clamped=35..69 previous=43..77
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=35 jumpTo=700.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=121.756103515625 dragStartPos=43.727508544921875 delta=78.02859497070312 dValue=32.316059664071325 targetStart=32.316059664071325
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=32.316059664071325..66.31605966407133 clamped=32..66 previous=35..69
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=32 jumpTo=640.0
+[EditorDemo] scrollController offset=640.0 line≈32
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=112.87408447265625 dragStartPos=43.727508544921875 delta=69.14657592773438 dValue=28.637512620673125 targetStart=28.637512620673125
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=28.637512620673125..62.63751262067312 clamped=28..62 previous=35..69
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=28 jumpTo=560.0
+[EditorDemo] scrollController offset=560.0 line≈28
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=103.66302490234375 dragStartPos=43.727508544921875 delta=59.935516357421875 dValue=24.82269126248647 targetStart=24.82269126248647
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=24.82269126248647..58.82269126248647 clamped=24..58 previous=28..62
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=24 jumpTo=480.0
+[EditorDemo] scrollController offset=480.0 line≈24
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=99.386474609375 dragStartPos=43.727508544921875 delta=55.658966064453125 dValue=23.051529620067186 targetStart=23.051529620067186
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=23.051529620067186..57.051529620067186 clamped=23..57 previous=28..62
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=23 jumpTo=460.0
+[EditorDemo] scrollController offset=460.0 line≈23
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=94.78094482421875 dragStartPos=43.727508544921875 delta=51.053436279296875 dValue=21.144118940973854 targetStart=21.144118940973854
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=21.144118940973854..55.144118940973854 clamped=21..55 previous=23..57
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=21 jumpTo=420.0
+[EditorDemo] scrollController offset=420.0 line≈21
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=90.50439453125 dragStartPos=43.727508544921875 delta=46.776885986328125 dValue=19.37295729855457 targetStart=19.37295729855457
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=19.37295729855457..53.37295729855457 clamped=19..53 previous=23..57
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=19 jumpTo=380.0
+[EditorDemo] scrollController offset=380.0 line≈19
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=89.51751708984375 dragStartPos=43.727508544921875 delta=45.790008544921875 dValue=18.964235466646862 targetStart=18.964235466646862
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=18.964235466646862..52.96423546664686 clamped=18..52 previous=23..57
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=18 jumpTo=360.0
+[EditorDemo] scrollController offset=360.0 line≈18
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=86.55682373046875 dragStartPos=43.727508544921875 delta=42.829315185546875 dValue=17.73804469280932 targetStart=17.73804469280932
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=17.73804469280932..51.738044692809325 clamped=17..51 previous=18..52
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=17 jumpTo=340.0
+[EditorDemo] scrollController offset=340.0 line≈17
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=83.92507934570312 dragStartPos=43.727508544921875 delta=40.19757080078125 dValue=16.64809031658862 targetStart=16.64809031658862
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=16.64809031658862..50.64809031658862 clamped=16..50 previous=18..52
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=16 jumpTo=320.0
+[EditorDemo] scrollController offset=320.0 line≈16
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=81.29336547851562 dragStartPos=43.727508544921875 delta=37.56585693359375 dValue=15.558148579425122 targetStart=15.558148579425122
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=15.558148579425122..49.55814857942512 clamped=15..49 previous=16..50
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=15 jumpTo=300.0
+[EditorDemo] scrollController offset=300.0 line≈15
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=79.64852905273438 dragStartPos=43.727508544921875 delta=35.9210205078125 dValue=14.876928674169335 targetStart=14.876928674169335
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=14.876928674169335..48.876928674169335 clamped=14..48 previous=16..50
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=14 jumpTo=280.0
+[EditorDemo] scrollController offset=280.0 line≈14
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=74.05612182617188 dragStartPos=43.727508544921875 delta=30.32861328125 dValue=12.560796163168298 targetStart=12.560796163168298
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=12.560796163168298..46.5607961631683 clamped=12..46 previous=16..50
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=12 jumpTo=240.0
+[EditorDemo] scrollController offset=240.0 line≈12
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=60.89752197265625 dragStartPos=43.727508544921875 delta=17.170013427734375 dValue=7.111074838293604 targetStart=7.111074838293604
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=7.111074838293604..41.111074838293604 clamped=7..41 previous=12..46
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=7 jumpTo=140.0
+[EditorDemo] scrollController offset=140.0 line≈7
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=51.68646240234375 dragStartPos=43.727508544921875 delta=7.958953857421875 dValue=3.296253480106951 targetStart=3.296253480106951
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=3.296253480106951..37.29625348010695 clamped=3..37 previous=12..46
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=3 jumpTo=60.0
+[EditorDemo] scrollController offset=60.0 line≈3
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=49.712677001953125 dragStartPos=43.727508544921875 delta=5.98516845703125 dValue=2.478797177234328 targetStart=2.478797177234328
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=2.478797177234328..36.47879717723433 clamped=2..36 previous=12..46
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=2 jumpTo=40.0
+[EditorDemo] scrollController offset=40.0 line≈2
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=48.396820068359375 dragStartPos=43.727508544921875 delta=4.6693115234375 dValue=1.933826308652579 targetStart=1.933826308652579
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=1.933826308652579..35.93382630865258 clamped=1..35 previous=12..46
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=1 jumpTo=20.0
+[EditorDemo] scrollController offset=20.0 line≈1
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=43.46234130859375 dragStartPos=43.727508544921875 delta=-0.265167236328125 dValue=-0.10982076805758188 targetStart=-0.10982076805758188
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-0.10982076805758188..33.89017923194242 clamped=0..34 previous=1..35
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[EditorDemo] scrollController offset=0.0 line≈0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=40.830596923828125 dragStartPos=43.727508544921875 delta=-2.89691162109375 dValue=-1.1997751442782851 targetStart=-1.1997751442782851
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-1.1997751442782851..32.800224855721716 clamped=0..34 previous=1..35
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=38.198883056640625 dragStartPos=43.727508544921875 delta=-5.52862548828125 dValue=-2.2897168814417825 targetStart=-2.2897168814417825
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-2.2897168814417825..31.710283118558216 clamped=0..34 previous=1..35
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=37.54095458984375 dragStartPos=43.727508544921875 delta=-6.186553955078125 dValue=-2.5622023157326574 targetStart=-2.5622023157326574
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-2.5622023157326574..31.43779768426734 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=34.251312255859375 dragStartPos=43.727508544921875 delta=-9.4761962890625 dValue=-3.9246294871870293 targetStart=-3.9246294871870293
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-3.9246294871870293..30.07537051281297 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=31.290618896484375 dragStartPos=43.727508544921875 delta=-12.4368896484375 dValue=-5.150820261024567 targetStart=-5.150820261024567
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-5.150820261024567..28.849179738975433 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=28.329925537109375 dragStartPos=43.727508544921875 delta=-15.3975830078125 dValue=-6.377011034862105 targetStart=-6.377011034862105
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-6.377011034862105..27.622988965137896 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=24.7113037109375 dragStartPos=43.727508544921875 delta=-19.016204833984375 dValue=-7.875687242990517 targetStart=-7.875687242990517
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-7.875687242990517..26.124312757009484 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=17.80303955078125 dragStartPos=43.727508544921875 delta=-25.924468994140625 dValue=-10.7367906225733 targetStart=-10.7367906225733
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-10.7367906225733..23.263209377426698 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=12.539581298828125 dragStartPos=43.727508544921875 delta=-31.18792724609375 dValue=-12.916686735957501 targetStart=-12.916686735957501
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-12.916686735957501..21.0833132640425 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=11.223724365234375 dragStartPos=43.727508544921875 delta=-32.5037841796875 dValue=-13.461657604539251 targetStart=-13.461657604539251
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-13.461657604539251..20.53834239546075 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=10.5657958984375 dragStartPos=43.727508544921875 delta=-33.161712646484375 dValue=-13.734143038830124 targetStart=-13.734143038830124
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-13.734143038830124..20.265856961169874 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=7.6051025390625 dragStartPos=43.727508544921875 delta=-36.122406005859375 dValue=-14.960333812667663 targetStart=-14.960333812667663
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-14.960333812667663..19.039666187332337 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=3.657501220703125 dragStartPos=43.727508544921875 delta=-40.07000732421875 dValue=-16.595259057470116 targetStart=-16.595259057470116
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-16.595259057470116..17.404740942529884 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=2.670623779296875 dragStartPos=43.727508544921875 delta=-41.056884765625 dValue=-17.003980889377825 targetStart=-17.003980889377825
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-17.003980889377825..16.996019110622175 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=-1.934906005859375 dragStartPos=43.727508544921875 delta=-45.66241455078125 dValue=-18.91139156847115 targetStart=-18.91139156847115
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-18.91139156847115..15.08860843152885 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=-5.22454833984375 dragStartPos=43.727508544921875 delta=-48.952056884765625 dValue=-20.27381873992552 targetStart=-20.27381873992552
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-20.27381873992552..13.72618126007448 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panUpdate type=_DragType.scrub pos=-8.1778564453125 dragStartPos=43.727508544921875 delta=-51.905364990234375 dValue=-21.49695086191936 targetStart=-21.49695086191936
+[ScrollMinimap] onWindowChanged handle=MinimapHandle.scrub requested=-21.49695086191936..12.503049138080641 clamped=0..34 previous=0..34
+[EditorDemo] onWindowChanged handle=MinimapHandle.scrub startLine=0 jumpTo=0.0
+[ScrollMinimap] panEnd type=_DragType.scrub velocity=Velocity(-12.4, -51.0)
+[ScrollMinimap] panStart type=seek (outside viewport) local=Offset(29.8, 130.7)
