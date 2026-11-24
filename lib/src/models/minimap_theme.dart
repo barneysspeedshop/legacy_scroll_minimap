@@ -24,12 +24,7 @@ class MinimapTheme {
   });
 
   /// Creates a copy of this theme with the given fields replaced.
-  MinimapTheme copyWith({
-    Color? markerColor,
-    Color? textColor,
-    Color? viewportColor,
-    Color? viewportBorderColor,
-  }) =>
+  MinimapTheme copyWith({Color? markerColor, Color? textColor, Color? viewportColor, Color? viewportBorderColor}) =>
       MinimapTheme(
         markerColor: markerColor ?? this.markerColor,
         textColor: textColor ?? this.textColor,
@@ -39,9 +34,9 @@ class MinimapTheme {
 
   /// Creates a default theme based on the application's [ThemeData].
   factory MinimapTheme.fromTheme(ThemeData theme) => MinimapTheme(
-        markerColor: theme.colorScheme.primary.withValues(alpha: 0.5),
-        textColor: theme.colorScheme.onSurface,
-        viewportColor: theme.colorScheme.primaryContainer.withValues(alpha: 0.2),
-        viewportBorderColor: theme.colorScheme.primary,
-      );
+    markerColor: theme.colorScheme.primary.withValues(alpha: 0.5),
+    textColor: theme.colorScheme.onSurface,
+    viewportColor: theme.colorScheme.primaryContainer.withValues(alpha: 0.2),
+    viewportBorderColor: theme.colorScheme.primary,
+  );
 }
