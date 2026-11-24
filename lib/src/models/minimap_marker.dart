@@ -39,13 +39,12 @@ class MinimapMarker {
     Color? color,
     double? startRatio,
     double? endRatio,
-  }) =>
-      MinimapMarker(
-        id: id ?? this.id,
-        startLine: startLine ?? this.startLine,
-        endLine: endLine ?? this.endLine,
-        color: color ?? this.color,
-        startRatio: startRatio ?? this.startRatio,
-        endRatio: endRatio ?? this.endRatio,
-      );
+  }) => MinimapMarker(
+    id: id ?? this.id,
+    startLine: startLine ?? this.startLine,
+    endLine: endLine ?? this.endLine,
+    color: color ?? this.color,
+    startRatio: startRatio ?? this.startRatio,
+    endRatio: endRatio ?? this.endRatio,
+  );
 }

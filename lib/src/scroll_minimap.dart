@@ -128,10 +128,7 @@ class _ScrollMinimapState extends State<ScrollMinimap> {
       }
     }
 
-    return (
-      displayStart.clamp(_totalStartValue, _totalEndValue),
-      displayEnd.clamp(_totalStartValue, _totalEndValue),
-    );
+    return (displayStart.clamp(_totalStartValue, _totalEndValue), displayEnd.clamp(_totalStartValue, _totalEndValue));
   }
 
   _DragType _getDragTypeAtPosition(Offset localPosition, Size size) {
@@ -247,11 +244,7 @@ class _ScrollMinimapState extends State<ScrollMinimap> {
       'dValue=$dValue targetStart=${_dragStartVisibleStartValue + dValue}',
     );
 
-    _updateVisibleWindow(
-      _dragStartVisibleStartValue + dValue,
-      _dragStartVisibleEndValue + dValue,
-      _dragType,
-    );
+    _updateVisibleWindow(_dragStartVisibleStartValue + dValue, _dragStartVisibleEndValue + dValue, _dragType);
   }
 
   void _onPointerSignal(PointerSignalEvent event, Size size) {
@@ -282,10 +275,7 @@ class _ScrollMinimapState extends State<ScrollMinimap> {
       }
 
       final pixelsBefore = position.pixels;
-      final targetOffset = (pixelsBefore + delta).clamp(
-        position.minScrollExtent,
-        position.maxScrollExtent,
-      );
+      final targetOffset = (pixelsBefore + delta).clamp(position.minScrollExtent, position.maxScrollExtent);
       if (targetOffset == pixelsBefore) {
         _minimapLog(
           'pointerScroll skipped: clamped no-op pixelsBefore=$pixelsBefore '
@@ -415,11 +405,7 @@ class _ScrollMinimapState extends State<ScrollMinimap> {
       'previous=${widget.visibleStartLine}..${widget.visibleEndLine}',
     );
 
-    widget.onWindowChanged(
-      startValue.toInt(),
-      endValue.toInt(),
-      handle,
-    );
+    widget.onWindowChanged(startValue.toInt(), endValue.toInt(), handle);
   }
 
   MinimapHandle _mapDragTypeToMinimapHandle(_DragType type) {
