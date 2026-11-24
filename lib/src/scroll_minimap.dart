@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart' show debugPrint, kDebugMode, listEquals;
 import 'package:flutter/gestures.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 import 'models/minimap_marker.dart';
 import 'models/minimap_theme.dart';

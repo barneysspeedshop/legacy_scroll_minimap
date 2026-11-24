@@ -1,6 +1,6 @@
 import 'dart:ui' as ui;
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:legacy_scroll_minimap/legacy_scroll_minimap.dart';
 
@@ -27,7 +27,7 @@ void main() {
                 ),
               ],
               onSeek: (line) => seekLine = line,
-              onWindowChanged: (_, __, ___) {},
+              onWindowChanged: (_, _, _) {},
             ),
           ),
         ),
@@ -112,7 +112,7 @@ void main() {
                   visibleStartLine: 0,
                   visibleEndLine: 20,
                   scrollController: scrollController,
-                  onWindowChanged: (_, __, ___) {},
+                  onWindowChanged: (_, _, _) {},
                 ),
               ),
             ],
@@ -156,7 +156,7 @@ void main() {
                   visibleStartLine: 0,
                   visibleEndLine: 20,
                   scrollController: scrollController,
-                  onWindowChanged: (_, __, ___) {},
+                  onWindowChanged: (_, _, _) {},
                 ),
               ),
             ],
