@@ -58,3 +58,7 @@ ScrollMinimap(
   },
 )
 ```
+
+## Material UI compatibility
+
+This release requires Dart 3.13 and Flutter 3.47 or newer. Import `package:material_ui/material_ui.dart` in consuming widgets and use its Material types (including `ThemeData`). Legacy Flutter Material classes are distinct types. Widget behavior and existing options are retained.

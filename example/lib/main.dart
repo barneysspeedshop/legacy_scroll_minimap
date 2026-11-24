@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart' show debugPrint, kDebugMode;
 import 'package:flutter/gestures.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:legacy_scroll_minimap/legacy_scroll_minimap.dart';
 
 void _demoLog(String message) {
@@ -74,7 +74,7 @@ class _EditorDemoPageState extends State<EditorDemoPage> {
 
   List<String> _generateSampleDocument() {
     final buffer = StringBuffer();
-    buffer.writeln('import "package:flutter/material.dart";');
+    buffer.writeln('import "package:material_ui/material_ui.dart";');
     buffer.writeln();
     buffer.writeln('void main() {');
     buffer.writeln('  runApp(const MyApp());');

@@ -1,15 +1,16 @@
 name: legacy_scroll_minimap
 description: "A vertical scroll minimap widget for Flutter, ideal for code editors and long scrollable content."
-version: 1.0.1
+version: 2.0.0
 homepage: https://ropenotes.dev
 repository: https://github.com/barneysspeedshop/legacy_scroll_minimap
 issue_tracker: https://github.com/barneysspeedshop/legacy_scroll_minimap/issues
 
 environment:
-  sdk: ^3.0.0
-  flutter: ">=3.27.0"
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
 
 dependencies:
+  material_ui: ^1.11.1
   flutter:
     sdk: flutter
 
